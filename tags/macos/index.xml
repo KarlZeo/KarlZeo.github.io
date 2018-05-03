@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Macos on 蓝白胖次</title>
+    <link>https://mikulove.com/tags/macos/</link>
+    <description>Recent content in Macos on 蓝白胖次</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 12 Dec 2017 02:17:22 +0800</lastBuildDate>
+    
+	<atom:link href="https://mikulove.com/tags/macos/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>构建macOS可用的VLCKit</title>
+      <link>https://mikulove.com/2017/12/12/build-vlckit-for-macos/</link>
+      <pubDate>Tue, 12 Dec 2017 02:17:22 +0800</pubDate>
+      
+      <guid>https://mikulove.com/2017/12/12/build-vlckit-for-macos/</guid>
+      <description>&lt;h2 id=&#34;拉取代码&#34;&gt;拉取代码&lt;/h2&gt;
+
+&lt;p&gt;首先把&lt;code&gt;VLCKit&lt;/code&gt;的源码从git上面拉下来.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>使用doxyfile文件制作docset文档</title>
+      <link>https://mikulove.com/2017/09/29/use-doxyfile-to-make-the-docset-file/</link>
+      <pubDate>Fri, 29 Sep 2017 19:58:29 +0000</pubDate>
+      
+      <guid>https://mikulove.com/2017/09/29/use-doxyfile-to-make-the-docset-file/</guid>
+      <description>&lt;h2 id=&#34;安装-doxygen&#34;&gt;安装&lt;code&gt;doxygen&lt;/code&gt;&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code&gt;brew info doxygen
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>如何用Homebrew完美的重装MPV</title>
+      <link>https://mikulove.com/2017/07/20/ru-he-yong-homebrew-wan-mei-de-zhong-zhuang-mpv/</link>
+      <pubDate>Thu, 20 Jul 2017 01:04:36 +0000</pubDate>
+      
+      <guid>https://mikulove.com/2017/07/20/ru-he-yong-homebrew-wan-mei-de-zhong-zhuang-mpv/</guid>
+      <description>&lt;p&gt;每次&lt;code&gt;brew update&lt;/code&gt;，都会把所有安装的命令行软件全部更新到最新，于是乎就导致了一个问题。某个程序是依赖一个低版本的库编译的，但是它升级到了高版本，但是原程序指向的还是低版本的库，于是程序就蹦沙卡拉卡了。比如下面的&lt;code&gt;mpv&lt;/code&gt;就经常出这个问题。&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>修复Homebrew warning Insecure world writable dir /usr/local/bin in PATH, mode 040777</title>
+      <link>https://mikulove.com/2017/07/06/xiu-fu-homebrew-warning-insecure-world-writable-dir/</link>
+      <pubDate>Thu, 06 Jul 2017 01:06:04 +0000</pubDate>
+      
+      <guid>https://mikulove.com/2017/07/06/xiu-fu-homebrew-warning-insecure-world-writable-dir/</guid>
+      <description>&lt;p&gt;某天手残,乱改目录权限,导致 &lt;code&gt;Homebrew&lt;/code&gt; 频繁爆 &lt;code&gt;warning&lt;/code&gt; ,虽然不影响使用,但是,作为一个强迫症,我看着难受啊.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>macOS学习笔记--使用纯代码构建macOS应用</title>
+      <link>https://mikulove.com/2017/06/30/macos-xue-xi-bi-ji-shi-yong-chun-dai-ma-gou-jian-mac-ying-yong/</link>
+      <pubDate>Fri, 30 Jun 2017 23:03:38 +0000</pubDate>
+      
+      <guid>https://mikulove.com/2017/06/30/macos-xue-xi-bi-ji-shi-yong-chun-dai-ma-gou-jian-mac-ying-yong/</guid>
+      <description>&lt;h2 id=&#34;no-1-the-start&#34;&gt;NO.1 The Start&lt;/h2&gt;
+
+&lt;p&gt;起初,由于拖延症,这篇文章我不想发的,但是纯代码构建项目的demo又写好了.前两天群里的朋友又问我要纯代码的demo.索性就借着机会把demo扔出来好了.给自己的懒癌加强一针.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>macOS学习笔记--IKPictureTaker玩耍记录</title>
+      <link>https://mikulove.com/2017/06/02/macos-xue-xi-bi-ji-ikpicturetaker-wan-shua-ji-lu/</link>
+      <pubDate>Fri, 02 Jun 2017 16:14:06 +0000</pubDate>
+      
+      <guid>https://mikulove.com/2017/06/02/macos-xue-xi-bi-ji-ikpicturetaker-wan-shua-ji-lu/</guid>
+      <description>&lt;h2 id=&#34;起因&#34;&gt;起因&lt;/h2&gt;
+
+&lt;p&gt;某天,在mac交流群有人问到类似macQQ的选取头像功能怎么实现.印象中在Telegram上面有个相同的功能,就把Telegram的源码Clone下来查看了一番,于是定位到了这个组件,查阅了一下官方文档和Demo,确实是一个自带的控件.但是官方的范例是2013年的,而且还是远古时期的oc代码.于是就有了本篇博客.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>macOS学习笔记--隐藏dock栏的图标</title>
+      <link>https://mikulove.com/2017/05/02/macos-xue-xi-bi-ji-yin-cang-dock-lan-tu-biao/</link>
+      <pubDate>Tue, 02 May 2017 19:38:54 +0000</pubDate>
+      
+      <guid>https://mikulove.com/2017/05/02/macos-xue-xi-bi-ji-yin-cang-dock-lan-tu-biao/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;首先,打开xcode,找到工程的info.plist文件.&lt;/li&gt;
+&lt;li&gt;用源码的方式打开&lt;/li&gt;
+&lt;li&gt;最后一个key标签后面加入如下几行.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;lt;key&amp;gt;LSUIElement&amp;lt;/key&amp;gt;
+&amp;lt;true/&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>编译鼠须管的坑</title>
+      <link>https://mikulove.com/2017/03/22/bian-yi-shu-xu-guan-de-keng/</link>
+      <pubDate>Wed, 22 Mar 2017 00:11:24 +0000</pubDate>
+      
+      <guid>https://mikulove.com/2017/03/22/bian-yi-shu-xu-guan-de-keng/</guid>
+      <description>&lt;h2 id=&#34;前言&#34;&gt;前言&lt;/h2&gt;
+
+&lt;p&gt;最近编译Squirrel,各种Error,查了下GitHub的工单,发现是 &lt;code&gt;snappy&lt;/code&gt; 导致的.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>macOS学习笔记--隐藏titlebar保留关闭等三个按钮</title>
+      <link>https://mikulove.com/2017/03/12/macos-xue-xi-bi-ji-yin-cang-titlebar-bao-liu-guan-bi-an-niu/</link>
+      <pubDate>Sun, 12 Mar 2017 13:23:49 +0000</pubDate>
+      
+      <guid>https://mikulove.com/2017/03/12/macos-xue-xi-bi-ji-yin-cang-titlebar-bao-liu-guan-bi-an-niu/</guid>
+      <description>&lt;p&gt;mac自带的titlebar,总之就是一个字,丑,两个字,非常丑,啊,不对,这是三个字.总之就是非常丑.(不要在意这些细节)&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>PHPStorm配置记录</title>
+      <link>https://mikulove.com/2016/07/26/phpstorm-pei-zhi-ji-lu/</link>
+      <pubDate>Tue, 26 Jul 2016 13:23:51 +0000</pubDate>
+      
+      <guid>https://mikulove.com/2016/07/26/phpstorm-pei-zhi-ji-lu/</guid>
+      <description>&lt;h2 id=&#34;mamp-配置&#34;&gt;MAMP 配置&lt;/h2&gt;
+
+&lt;p&gt;PHP集成开发环境,不解释.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>AFNetworking 3.0&#43; 相比之前版本的变化</title>
+      <link>https://mikulove.com/2016/04/30/afnetworking-30-xiang-bi-zhi-qian-ban-ben-de-bian-hua/</link>
+      <pubDate>Sat, 30 Apr 2016 13:23:26 +0000</pubDate>
+      
+      <guid>https://mikulove.com/2016/04/30/afnetworking-30-xiang-bi-zhi-qian-ban-ben-de-bian-hua/</guid>
+      <description>&lt;p&gt;新版的 AFNetworking 相比之前的版本废弃了如下三个类.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Mac 上面好用的软件</title>
+      <link>https://mikulove.com/2016/04/30/mac-shang-mian-hao-yong-de-ruan-jian/</link>
+      <pubDate>Sat, 30 Apr 2016 13:23:19 +0000</pubDate>
+      
+      <guid>https://mikulove.com/2016/04/30/mac-shang-mian-hao-yong-de-ruan-jian/</guid>
+      <description>&lt;h2 id=&#34;1-spectacle&#34;&gt;1. Spectacle&lt;/h2&gt;
+
+&lt;p&gt;Spectacle 是一个窗口管理快捷键程序，为当前窗口居中全屏上下左右半屏四分之一屏等等设定快捷键。免费实用.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

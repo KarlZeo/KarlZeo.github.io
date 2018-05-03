@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Arch Linux on 蓝白胖次</title>
+    <link>https://mikulove.com/tags/arch-linux/</link>
+    <description>Recent content in Arch Linux on 蓝白胖次</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 10 Mar 2018 01:29:47 +0800</lastBuildDate>
+    
+	<atom:link href="https://mikulove.com/tags/arch-linux/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>修正安装Arch Linux时 is apparently in use by the system; will not make a filesystem here! 的问题</title>
+      <link>https://mikulove.com/2018/03/10/fix-the-problem-named-is-apparently-in-use-by-the-system/</link>
+      <pubDate>Sat, 10 Mar 2018 01:29:47 +0800</pubDate>
+      
+      <guid>https://mikulove.com/2018/03/10/fix-the-problem-named-is-apparently-in-use-by-the-system/</guid>
+      <description>&lt;p&gt;很多次,安装Arch Linux的时候,分区完成后,创建新的文件系统的时候,总是提示&lt;code&gt;/dev/sdax is apparently in use by the system; will not make a filesystem here!&lt;/code&gt;.谷歌了一番,总算解决了,记录下解决方案备忘.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

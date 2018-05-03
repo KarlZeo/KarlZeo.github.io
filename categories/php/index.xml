@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Php on 蓝白胖次</title>
+    <link>https://mikulove.com/categories/php/</link>
+    <description>Recent content in Php on 蓝白胖次</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 26 Jul 2016 13:23:51 +0000</lastBuildDate>
+    
+	<atom:link href="https://mikulove.com/categories/php/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>PHPStorm配置记录</title>
+      <link>https://mikulove.com/2016/07/26/phpstorm-pei-zhi-ji-lu/</link>
+      <pubDate>Tue, 26 Jul 2016 13:23:51 +0000</pubDate>
+      
+      <guid>https://mikulove.com/2016/07/26/phpstorm-pei-zhi-ji-lu/</guid>
+      <description>&lt;h2 id=&#34;mamp-配置&#34;&gt;MAMP 配置&lt;/h2&gt;
+
+&lt;p&gt;PHP集成开发环境,不解释.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

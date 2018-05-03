@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Swift on 蓝白胖次</title>
+    <link>https://mikulove.com/tags/swift/</link>
+    <description>Recent content in Swift on 蓝白胖次</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 30 Jun 2017 23:03:38 +0000</lastBuildDate>
+    
+	<atom:link href="https://mikulove.com/tags/swift/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>macOS学习笔记--使用纯代码构建macOS应用</title>
+      <link>https://mikulove.com/2017/06/30/macos-xue-xi-bi-ji-shi-yong-chun-dai-ma-gou-jian-mac-ying-yong/</link>
+      <pubDate>Fri, 30 Jun 2017 23:03:38 +0000</pubDate>
+      
+      <guid>https://mikulove.com/2017/06/30/macos-xue-xi-bi-ji-shi-yong-chun-dai-ma-gou-jian-mac-ying-yong/</guid>
+      <description>&lt;h2 id=&#34;no-1-the-start&#34;&gt;NO.1 The Start&lt;/h2&gt;
+
+&lt;p&gt;起初,由于拖延症,这篇文章我不想发的,但是纯代码构建项目的demo又写好了.前两天群里的朋友又问我要纯代码的demo.索性就借着机会把demo扔出来好了.给自己的懒癌加强一针.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>macOS学习笔记--IKPictureTaker玩耍记录</title>
+      <link>https://mikulove.com/2017/06/02/macos-xue-xi-bi-ji-ikpicturetaker-wan-shua-ji-lu/</link>
+      <pubDate>Fri, 02 Jun 2017 16:14:06 +0000</pubDate>
+      
+      <guid>https://mikulove.com/2017/06/02/macos-xue-xi-bi-ji-ikpicturetaker-wan-shua-ji-lu/</guid>
+      <description>&lt;h2 id=&#34;起因&#34;&gt;起因&lt;/h2&gt;
+
+&lt;p&gt;某天,在mac交流群有人问到类似macQQ的选取头像功能怎么实现.印象中在Telegram上面有个相同的功能,就把Telegram的源码Clone下来查看了一番,于是定位到了这个组件,查阅了一下官方文档和Demo,确实是一个自带的控件.但是官方的范例是2013年的,而且还是远古时期的oc代码.于是就有了本篇博客.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>macOS学习笔记--隐藏dock栏的图标</title>
+      <link>https://mikulove.com/2017/05/02/macos-xue-xi-bi-ji-yin-cang-dock-lan-tu-biao/</link>
+      <pubDate>Tue, 02 May 2017 19:38:54 +0000</pubDate>
+      
+      <guid>https://mikulove.com/2017/05/02/macos-xue-xi-bi-ji-yin-cang-dock-lan-tu-biao/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;首先,打开xcode,找到工程的info.plist文件.&lt;/li&gt;
+&lt;li&gt;用源码的方式打开&lt;/li&gt;
+&lt;li&gt;最后一个key标签后面加入如下几行.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;lt;key&amp;gt;LSUIElement&amp;lt;/key&amp;gt;
+&amp;lt;true/&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>macOS学习笔记--隐藏titlebar保留关闭等三个按钮</title>
+      <link>https://mikulove.com/2017/03/12/macos-xue-xi-bi-ji-yin-cang-titlebar-bao-liu-guan-bi-an-niu/</link>
+      <pubDate>Sun, 12 Mar 2017 13:23:49 +0000</pubDate>
+      
+      <guid>https://mikulove.com/2017/03/12/macos-xue-xi-bi-ji-yin-cang-titlebar-bao-liu-guan-bi-an-niu/</guid>
+      <description>&lt;p&gt;mac自带的titlebar,总之就是一个字,丑,两个字,非常丑,啊,不对,这是三个字.总之就是非常丑.(不要在意这些细节)&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

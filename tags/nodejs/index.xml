@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Nodejs on 蓝白胖次</title>
+    <link>https://mikulove.com/tags/nodejs/</link>
+    <description>Recent content in Nodejs on 蓝白胖次</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 23 Feb 2018 23:36:14 +0800</lastBuildDate>
+    
+	<atom:link href="https://mikulove.com/tags/nodejs/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>nodebb论坛安装备忘</title>
+      <link>https://mikulove.com/2018/02/23/install-nodebb-on-linux/</link>
+      <pubDate>Fri, 23 Feb 2018 23:36:14 +0800</pubDate>
+      
+      <guid>https://mikulove.com/2018/02/23/install-nodebb-on-linux/</guid>
+      <description>&lt;h2 id=&#34;准备&#34;&gt;准备&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;一台Linux服务器(以CentOS 7.4为例)&lt;/li&gt;
+&lt;li&gt;全程root操作&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

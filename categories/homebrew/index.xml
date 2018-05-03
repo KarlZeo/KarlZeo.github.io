@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Homebrew on 蓝白胖次</title>
+    <link>https://mikulove.com/categories/homebrew/</link>
+    <description>Recent content in Homebrew on 蓝白胖次</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 20 Jul 2017 01:04:36 +0000</lastBuildDate>
+    
+	<atom:link href="https://mikulove.com/categories/homebrew/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>如何用Homebrew完美的重装MPV</title>
+      <link>https://mikulove.com/2017/07/20/ru-he-yong-homebrew-wan-mei-de-zhong-zhuang-mpv/</link>
+      <pubDate>Thu, 20 Jul 2017 01:04:36 +0000</pubDate>
+      
+      <guid>https://mikulove.com/2017/07/20/ru-he-yong-homebrew-wan-mei-de-zhong-zhuang-mpv/</guid>
+      <description>&lt;p&gt;每次&lt;code&gt;brew update&lt;/code&gt;，都会把所有安装的命令行软件全部更新到最新，于是乎就导致了一个问题。某个程序是依赖一个低版本的库编译的，但是它升级到了高版本，但是原程序指向的还是低版本的库，于是程序就蹦沙卡拉卡了。比如下面的&lt;code&gt;mpv&lt;/code&gt;就经常出这个问题。&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>修复Homebrew warning Insecure world writable dir /usr/local/bin in PATH, mode 040777</title>
+      <link>https://mikulove.com/2017/07/06/xiu-fu-homebrew-warning-insecure-world-writable-dir/</link>
+      <pubDate>Thu, 06 Jul 2017 01:06:04 +0000</pubDate>
+      
+      <guid>https://mikulove.com/2017/07/06/xiu-fu-homebrew-warning-insecure-world-writable-dir/</guid>
+      <description>&lt;p&gt;某天手残,乱改目录权限,导致 &lt;code&gt;Homebrew&lt;/code&gt; 频繁爆 &lt;code&gt;warning&lt;/code&gt; ,虽然不影响使用,但是,作为一个强迫症,我看着难受啊.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

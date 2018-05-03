@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Document on 蓝白胖次</title>
+    <link>https://mikulove.com/tags/document/</link>
+    <description>Recent content in Document on 蓝白胖次</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 29 Sep 2017 19:58:29 +0000</lastBuildDate>
+    
+	<atom:link href="https://mikulove.com/tags/document/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>使用doxyfile文件制作docset文档</title>
+      <link>https://mikulove.com/2017/09/29/use-doxyfile-to-make-the-docset-file/</link>
+      <pubDate>Fri, 29 Sep 2017 19:58:29 +0000</pubDate>
+      
+      <guid>https://mikulove.com/2017/09/29/use-doxyfile-to-make-the-docset-file/</guid>
+      <description>&lt;h2 id=&#34;安装-doxygen&#34;&gt;安装&lt;code&gt;doxygen&lt;/code&gt;&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code&gt;brew info doxygen
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

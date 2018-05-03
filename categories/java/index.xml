@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Java on 蓝白胖次</title>
+    <link>https://mikulove.com/categories/java/</link>
+    <description>Recent content in Java on 蓝白胖次</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 06 Jun 2016 13:23:12 +0000</lastBuildDate>
+    
+	<atom:link href="https://mikulove.com/categories/java/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>在linux系统中配置java环境变量的三种方法</title>
+      <link>https://mikulove.com/2016/06/06/zai-linux-xi-tong-zhong-pei-zhi-java-huan-jing-bian-liang/</link>
+      <pubDate>Mon, 06 Jun 2016 13:23:12 +0000</pubDate>
+      
+      <guid>https://mikulove.com/2016/06/06/zai-linux-xi-tong-zhong-pei-zhi-java-huan-jing-bian-liang/</guid>
+      <description>&lt;p&gt;在linux系统中配置Java环境变量的三种方法：&lt;/p&gt;
+
+&lt;p&gt;以 jdk-8u91-linux-x64.tar.gz 为例.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

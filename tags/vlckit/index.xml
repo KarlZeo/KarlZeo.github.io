@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Vlckit on 蓝白胖次</title>
+    <link>https://mikulove.com/tags/vlckit/</link>
+    <description>Recent content in Vlckit on 蓝白胖次</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 12 Dec 2017 02:17:22 +0800</lastBuildDate>
+    
+	<atom:link href="https://mikulove.com/tags/vlckit/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>构建macOS可用的VLCKit</title>
+      <link>https://mikulove.com/2017/12/12/build-vlckit-for-macos/</link>
+      <pubDate>Tue, 12 Dec 2017 02:17:22 +0800</pubDate>
+      
+      <guid>https://mikulove.com/2017/12/12/build-vlckit-for-macos/</guid>
+      <description>&lt;h2 id=&#34;拉取代码&#34;&gt;拉取代码&lt;/h2&gt;
+
+&lt;p&gt;首先把&lt;code&gt;VLCKit&lt;/code&gt;的源码从git上面拉下来.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

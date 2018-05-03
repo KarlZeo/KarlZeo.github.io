@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>蓝白胖次</title>
+    <link>https://mikulove.com/</link>
+    <description>Recent content on 蓝白胖次</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 12 Mar 2018 06:14:58 +0800</lastBuildDate>
+    
+	<atom:link href="https://mikulove.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Linux开机时自动获取DHCP地址</title>
+      <link>https://mikulove.com/2018/03/12/start-dhcpd-when-linux-system-startup/</link>
+      <pubDate>Mon, 12 Mar 2018 06:14:58 +0800</pubDate>
+      
+      <guid>https://mikulove.com/2018/03/12/start-dhcpd-when-linux-system-startup/</guid>
+      <description>&lt;p&gt;最近在家里折腾老电脑,作为局域网内服务器,帮我提供优质的网络服务.记录一下,备忘.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>修正安装Arch Linux时 is apparently in use by the system; will not make a filesystem here! 的问题</title>
+      <link>https://mikulove.com/2018/03/10/fix-the-problem-named-is-apparently-in-use-by-the-system/</link>
+      <pubDate>Sat, 10 Mar 2018 01:29:47 +0800</pubDate>
+      
+      <guid>https://mikulove.com/2018/03/10/fix-the-problem-named-is-apparently-in-use-by-the-system/</guid>
+      <description>&lt;p&gt;很多次,安装Arch Linux的时候,分区完成后,创建新的文件系统的时候,总是提示&lt;code&gt;/dev/sdax is apparently in use by the system; will not make a filesystem here!&lt;/code&gt;.谷歌了一番,总算解决了,记录下解决方案备忘.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>修正lede连接PPPoE的Bug</title>
+      <link>https://mikulove.com/2018/03/01/fix-lede-pppoe-connect-bug/</link>
+      <pubDate>Thu, 01 Mar 2018 21:58:59 +0800</pubDate>
+      
+      <guid>https://mikulove.com/2018/03/01/fix-lede-pppoe-connect-bug/</guid>
+      <description>&lt;p&gt;突然间,我家的WNDR3800就无法连接网络了.神奇的很.不知道是移动公司改了什么东西,还是固件本身就有Bug.总之就是上不去网了.起初,我以为是&lt;code&gt;wan&lt;/code&gt;口烧了.但是刷入&lt;code&gt;Gargoyle&lt;/code&gt;固件以后,又神奇的可以工作了.emmmmm,很明显是LEDE自己又做了什么负优化.
+&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>nodebb论坛安装备忘</title>
+      <link>https://mikulove.com/2018/02/23/install-nodebb-on-linux/</link>
+      <pubDate>Fri, 23 Feb 2018 23:36:14 +0800</pubDate>
+      
+      <guid>https://mikulove.com/2018/02/23/install-nodebb-on-linux/</guid>
+      <description>&lt;h2 id=&#34;准备&#34;&gt;准备&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;一台Linux服务器(以CentOS 7.4为例)&lt;/li&gt;
+&lt;li&gt;全程root操作&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>修复Xcode9中的“Unable to Boot Device Because It Cannot Be Located on Disk”错误</title>
+      <link>https://mikulove.com/2018/01/23/how-to-fix-unable-to-boot-device-because-it-cannot-be-located-on-disk-in-xcode-9/</link>
+      <pubDate>Tue, 23 Jan 2018 22:43:27 +0800</pubDate>
+      
+      <guid>https://mikulove.com/2018/01/23/how-to-fix-unable-to-boot-device-because-it-cannot-be-located-on-disk-in-xcode-9/</guid>
+      <description>&lt;h2 id=&#34;起因&#34;&gt;起因&lt;/h2&gt;
+
+&lt;p&gt;因为手残,把模拟器玩坏了,然后就喜闻乐见的运行不起来了.emmmmm.阴吹斯廷.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>为macOS软件添加Homebrew cask支持</title>
+      <link>https://mikulove.com/2018/01/11/add-macos-software-homebrew-cask-support/</link>
+      <pubDate>Thu, 11 Jan 2018 22:54:30 +0800</pubDate>
+      
+      <guid>https://mikulove.com/2018/01/11/add-macos-software-homebrew-cask-support/</guid>
+      <description>&lt;h2 id=&#34;创建索引文件&#34;&gt;创建索引文件&lt;/h2&gt;
+
+&lt;p&gt;以&amp;rsquo;VNote&amp;rsquo;为例&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>使用tftp命令更新路由器固件</title>
+      <link>https://mikulove.com/2017/12/17/use-tftp-command-to-flash-the-router-firmware/</link>
+      <pubDate>Sun, 17 Dec 2017 22:24:05 +0800</pubDate>
+      
+      <guid>https://mikulove.com/2017/12/17/use-tftp-command-to-flash-the-router-firmware/</guid>
+      <description>&lt;h2 id=&#34;背景&#34;&gt;背景&lt;/h2&gt;
+
+&lt;p&gt;闲得蛋疼手贱,把路由器里面执行了&lt;code&gt;rm -rf&lt;/code&gt;删除了某些系统文件.&lt;code&gt;sysupgrade&lt;/code&gt;命令升级固件喜闻乐见的失败了.于是就翻车了.&lt;/p&gt;
+
+&lt;h2 id=&#34;下载镜像&#34;&gt;下载镜像&lt;/h2&gt;
+
+&lt;p&gt;准备一个完整的路由器镜像.刷入之前做md5校验.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>构建macOS可用的VLCKit</title>
+      <link>https://mikulove.com/2017/12/12/build-vlckit-for-macos/</link>
+      <pubDate>Tue, 12 Dec 2017 02:17:22 +0800</pubDate>
+      
+      <guid>https://mikulove.com/2017/12/12/build-vlckit-for-macos/</guid>
+      <description>&lt;h2 id=&#34;拉取代码&#34;&gt;拉取代码&lt;/h2&gt;
+
+&lt;p&gt;首先把&lt;code&gt;VLCKit&lt;/code&gt;的源码从git上面拉下来.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Links</title>
+      <link>https://mikulove.com/links/</link>
+      <pubDate>Thu, 30 Nov 2017 17:24:10 +0800</pubDate>
+      
+      <guid>https://mikulove.com/links/</guid>
+      <description>Friends 立于浮华之世 奏响天籁之音</description>
+    </item>
+    
+    <item>
+      <title>使用doxyfile文件制作docset文档</title>
+      <link>https://mikulove.com/2017/09/29/use-doxyfile-to-make-the-docset-file/</link>
+      <pubDate>Fri, 29 Sep 2017 19:58:29 +0000</pubDate>
+      
+      <guid>https://mikulove.com/2017/09/29/use-doxyfile-to-make-the-docset-file/</guid>
+      <description>&lt;h2 id=&#34;安装-doxygen&#34;&gt;安装&lt;code&gt;doxygen&lt;/code&gt;&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code&gt;brew info doxygen
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>如何用Homebrew完美的重装MPV</title>
+      <link>https://mikulove.com/2017/07/20/ru-he-yong-homebrew-wan-mei-de-zhong-zhuang-mpv/</link>
+      <pubDate>Thu, 20 Jul 2017 01:04:36 +0000</pubDate>
+      
+      <guid>https://mikulove.com/2017/07/20/ru-he-yong-homebrew-wan-mei-de-zhong-zhuang-mpv/</guid>
+      <description>&lt;p&gt;每次&lt;code&gt;brew update&lt;/code&gt;，都会把所有安装的命令行软件全部更新到最新，于是乎就导致了一个问题。某个程序是依赖一个低版本的库编译的，但是它升级到了高版本，但是原程序指向的还是低版本的库，于是程序就蹦沙卡拉卡了。比如下面的&lt;code&gt;mpv&lt;/code&gt;就经常出这个问题。&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>修复Homebrew warning Insecure world writable dir /usr/local/bin in PATH, mode 040777</title>
+      <link>https://mikulove.com/2017/07/06/xiu-fu-homebrew-warning-insecure-world-writable-dir/</link>
+      <pubDate>Thu, 06 Jul 2017 01:06:04 +0000</pubDate>
+      
+      <guid>https://mikulove.com/2017/07/06/xiu-fu-homebrew-warning-insecure-world-writable-dir/</guid>
+      <description>&lt;p&gt;某天手残,乱改目录权限,导致 &lt;code&gt;Homebrew&lt;/code&gt; 频繁爆 &lt;code&gt;warning&lt;/code&gt; ,虽然不影响使用,但是,作为一个强迫症,我看着难受啊.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>macOS学习笔记--使用纯代码构建macOS应用</title>
+      <link>https://mikulove.com/2017/06/30/macos-xue-xi-bi-ji-shi-yong-chun-dai-ma-gou-jian-mac-ying-yong/</link>
+      <pubDate>Fri, 30 Jun 2017 23:03:38 +0000</pubDate>
+      
+      <guid>https://mikulove.com/2017/06/30/macos-xue-xi-bi-ji-shi-yong-chun-dai-ma-gou-jian-mac-ying-yong/</guid>
+      <description>&lt;h2 id=&#34;no-1-the-start&#34;&gt;NO.1 The Start&lt;/h2&gt;
+
+&lt;p&gt;起初,由于拖延症,这篇文章我不想发的,但是纯代码构建项目的demo又写好了.前两天群里的朋友又问我要纯代码的demo.索性就借着机会把demo扔出来好了.给自己的懒癌加强一针.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>macOS学习笔记--IKPictureTaker玩耍记录</title>
+      <link>https://mikulove.com/2017/06/02/macos-xue-xi-bi-ji-ikpicturetaker-wan-shua-ji-lu/</link>
+      <pubDate>Fri, 02 Jun 2017 16:14:06 +0000</pubDate>
+      
+      <guid>https://mikulove.com/2017/06/02/macos-xue-xi-bi-ji-ikpicturetaker-wan-shua-ji-lu/</guid>
+      <description>&lt;h2 id=&#34;起因&#34;&gt;起因&lt;/h2&gt;
+
+&lt;p&gt;某天,在mac交流群有人问到类似macQQ的选取头像功能怎么实现.印象中在Telegram上面有个相同的功能,就把Telegram的源码Clone下来查看了一番,于是定位到了这个组件,查阅了一下官方文档和Demo,确实是一个自带的控件.但是官方的范例是2013年的,而且还是远古时期的oc代码.于是就有了本篇博客.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>清除iptables防火墙规则</title>
+      <link>https://mikulove.com/2017/05/22/qing-chu-iptables-fang-huo-qiang-gui-ze/</link>
+      <pubDate>Mon, 22 May 2017 06:37:32 +0000</pubDate>
+      
+      <guid>https://mikulove.com/2017/05/22/qing-chu-iptables-fang-huo-qiang-gui-ze/</guid>
+      <description>&lt;p&gt;首先保留当前的连接不断开&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;/sbin/iptables -P INPUT ACCEPT
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>macOS学习笔记--隐藏dock栏的图标</title>
+      <link>https://mikulove.com/2017/05/02/macos-xue-xi-bi-ji-yin-cang-dock-lan-tu-biao/</link>
+      <pubDate>Tue, 02 May 2017 19:38:54 +0000</pubDate>
+      
+      <guid>https://mikulove.com/2017/05/02/macos-xue-xi-bi-ji-yin-cang-dock-lan-tu-biao/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;首先,打开xcode,找到工程的info.plist文件.&lt;/li&gt;
+&lt;li&gt;用源码的方式打开&lt;/li&gt;
+&lt;li&gt;最后一个key标签后面加入如下几行.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;lt;key&amp;gt;LSUIElement&amp;lt;/key&amp;gt;
+&amp;lt;true/&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>编译鼠须管的坑</title>
+      <link>https://mikulove.com/2017/03/22/bian-yi-shu-xu-guan-de-keng/</link>
+      <pubDate>Wed, 22 Mar 2017 00:11:24 +0000</pubDate>
+      
+      <guid>https://mikulove.com/2017/03/22/bian-yi-shu-xu-guan-de-keng/</guid>
+      <description>&lt;h2 id=&#34;前言&#34;&gt;前言&lt;/h2&gt;
+
+&lt;p&gt;最近编译Squirrel,各种Error,查了下GitHub的工单,发现是 &lt;code&gt;snappy&lt;/code&gt; 导致的.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>修复iOS 10越狱环境SSH不能用的问题</title>
+      <link>https://mikulove.com/2017/03/16/xiu-fu-ios-10-yue-yu-huan-jing-ssh-bu-neng-yong-de-wen-ti/</link>
+      <pubDate>Thu, 16 Mar 2017 13:23:14 +0000</pubDate>
+      
+      <guid>https://mikulove.com/2017/03/16/xiu-fu-ios-10-yue-yu-huan-jing-ssh-bu-neng-yong-de-wen-ti/</guid>
+      <description>&lt;h2 id=&#34;环境准备&#34;&gt;环境准备&lt;/h2&gt;
+
+&lt;p&gt;安装 &lt;code&gt;OCaml&lt;/code&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;brew install opam
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>macOS学习笔记--隐藏titlebar保留关闭等三个按钮</title>
+      <link>https://mikulove.com/2017/03/12/macos-xue-xi-bi-ji-yin-cang-titlebar-bao-liu-guan-bi-an-niu/</link>
+      <pubDate>Sun, 12 Mar 2017 13:23:49 +0000</pubDate>
+      
+      <guid>https://mikulove.com/2017/03/12/macos-xue-xi-bi-ji-yin-cang-titlebar-bao-liu-guan-bi-an-niu/</guid>
+      <description>&lt;p&gt;mac自带的titlebar,总之就是一个字,丑,两个字,非常丑,啊,不对,这是三个字.总之就是非常丑.(不要在意这些细节)&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>PHPStorm配置记录</title>
+      <link>https://mikulove.com/2016/07/26/phpstorm-pei-zhi-ji-lu/</link>
+      <pubDate>Tue, 26 Jul 2016 13:23:51 +0000</pubDate>
+      
+      <guid>https://mikulove.com/2016/07/26/phpstorm-pei-zhi-ji-lu/</guid>
+      <description>&lt;h2 id=&#34;mamp-配置&#34;&gt;MAMP 配置&lt;/h2&gt;
+
+&lt;p&gt;PHP集成开发环境,不解释.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>重置 MySQL 密码</title>
+      <link>https://mikulove.com/2016/07/26/chong-zhi-mysql-mi-ma/</link>
+      <pubDate>Tue, 26 Jul 2016 13:23:30 +0000</pubDate>
+      
+      <guid>https://mikulove.com/2016/07/26/chong-zhi-mysql-mi-ma/</guid>
+      <description>&lt;h2 id=&#34;一-用set-password命令&#34;&gt;一. 用SET PASSWORD命令&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code&gt;mysql -u root
+mysql&amp;gt; SET PASSWORD FOR &#39;root&#39;@&#39;localhost&#39; = PASSWORD(&#39;newpasswordword&#39;);
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>OpenWRT 作死记录</title>
+      <link>https://mikulove.com/2016/07/18/openwrt-zuo-si-ji-lu/</link>
+      <pubDate>Mon, 18 Jul 2016 13:23:55 +0000</pubDate>
+      
+      <guid>https://mikulove.com/2016/07/18/openwrt-zuo-si-ji-lu/</guid>
+      <description>&lt;h2 id=&#34;1-什么是openwrt&#34;&gt;1. 什么是OpenWRT&lt;/h2&gt;
+
+&lt;p&gt;OpenWrt是适合于嵌入式设备的一个Linux发行版。相对原厂固件而言，OpenWrt不是一个单一、静态的固件，而是提供了一个可添加软件包的可写的文件系统。这使使用者可以自由的选择应用程序和配置，而不必受设备提供商的限制，并且可以使用一些适合某方面应用的软件包来定制你的设备。对于开发者来说，OpenWrt是一个框架，開發者不必麻烦的构建整个固件就能得到想要的应用程序；对于使用者来说，这意味着完全定制的能力，與以往不同的方式使用设备，OPKG包含超过3500个软件。 默认使用LuCI作为web交互界面。&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>在linux系统中配置java环境变量的三种方法</title>
+      <link>https://mikulove.com/2016/06/06/zai-linux-xi-tong-zhong-pei-zhi-java-huan-jing-bian-liang/</link>
+      <pubDate>Mon, 06 Jun 2016 13:23:12 +0000</pubDate>
+      
+      <guid>https://mikulove.com/2016/06/06/zai-linux-xi-tong-zhong-pei-zhi-java-huan-jing-bian-liang/</guid>
+      <description>&lt;p&gt;在linux系统中配置Java环境变量的三种方法：&lt;/p&gt;
+
+&lt;p&gt;以 jdk-8u91-linux-x64.tar.gz 为例.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>AFNetworking 3.0&#43; 相比之前版本的变化</title>
+      <link>https://mikulove.com/2016/04/30/afnetworking-30-xiang-bi-zhi-qian-ban-ben-de-bian-hua/</link>
+      <pubDate>Sat, 30 Apr 2016 13:23:26 +0000</pubDate>
+      
+      <guid>https://mikulove.com/2016/04/30/afnetworking-30-xiang-bi-zhi-qian-ban-ben-de-bian-hua/</guid>
+      <description>&lt;p&gt;新版的 AFNetworking 相比之前的版本废弃了如下三个类.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Mac 上面好用的软件</title>
+      <link>https://mikulove.com/2016/04/30/mac-shang-mian-hao-yong-de-ruan-jian/</link>
+      <pubDate>Sat, 30 Apr 2016 13:23:19 +0000</pubDate>
+      
+      <guid>https://mikulove.com/2016/04/30/mac-shang-mian-hao-yong-de-ruan-jian/</guid>
+      <description>&lt;h2 id=&#34;1-spectacle&#34;&gt;1. Spectacle&lt;/h2&gt;
+
+&lt;p&gt;Spectacle 是一个窗口管理快捷键程序，为当前窗口居中全屏上下左右半屏四分之一屏等等设定快捷键。免费实用.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

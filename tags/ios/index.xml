@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ios on 蓝白胖次</title>
+    <link>https://mikulove.com/tags/ios/</link>
+    <description>Recent content in Ios on 蓝白胖次</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 16 Mar 2017 13:23:14 +0000</lastBuildDate>
+    
+	<atom:link href="https://mikulove.com/tags/ios/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>修复iOS 10越狱环境SSH不能用的问题</title>
+      <link>https://mikulove.com/2017/03/16/xiu-fu-ios-10-yue-yu-huan-jing-ssh-bu-neng-yong-de-wen-ti/</link>
+      <pubDate>Thu, 16 Mar 2017 13:23:14 +0000</pubDate>
+      
+      <guid>https://mikulove.com/2017/03/16/xiu-fu-ios-10-yue-yu-huan-jing-ssh-bu-neng-yong-de-wen-ti/</guid>
+      <description>&lt;h2 id=&#34;环境准备&#34;&gt;环境准备&lt;/h2&gt;
+
+&lt;p&gt;安装 &lt;code&gt;OCaml&lt;/code&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;brew install opam
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>AFNetworking 3.0&#43; 相比之前版本的变化</title>
+      <link>https://mikulove.com/2016/04/30/afnetworking-30-xiang-bi-zhi-qian-ban-ben-de-bian-hua/</link>
+      <pubDate>Sat, 30 Apr 2016 13:23:26 +0000</pubDate>
+      
+      <guid>https://mikulove.com/2016/04/30/afnetworking-30-xiang-bi-zhi-qian-ban-ben-de-bian-hua/</guid>
+      <description>&lt;p&gt;新版的 AFNetworking 相比之前的版本废弃了如下三个类.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

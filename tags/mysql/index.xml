@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mysql on 蓝白胖次</title>
+    <link>https://mikulove.com/tags/mysql/</link>
+    <description>Recent content in Mysql on 蓝白胖次</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 26 Jul 2016 13:23:30 +0000</lastBuildDate>
+    
+	<atom:link href="https://mikulove.com/tags/mysql/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>重置 MySQL 密码</title>
+      <link>https://mikulove.com/2016/07/26/chong-zhi-mysql-mi-ma/</link>
+      <pubDate>Tue, 26 Jul 2016 13:23:30 +0000</pubDate>
+      
+      <guid>https://mikulove.com/2016/07/26/chong-zhi-mysql-mi-ma/</guid>
+      <description>&lt;h2 id=&#34;一-用set-password命令&#34;&gt;一. 用SET PASSWORD命令&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code&gt;mysql -u root
+mysql&amp;gt; SET PASSWORD FOR &#39;root&#39;@&#39;localhost&#39; = PASSWORD(&#39;newpasswordword&#39;);
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

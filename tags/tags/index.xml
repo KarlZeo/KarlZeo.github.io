@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on 蓝白胖次</title>
+    <link>https://mikulove.com/tags/tags/</link>
+    <description>Recent content in Tags on 蓝白胖次</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 23 Jan 2018 22:43:27 +0800</lastBuildDate>
+    
+	<atom:link href="https://mikulove.com/tags/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>修复Xcode9中的“Unable to Boot Device Because It Cannot Be Located on Disk”错误</title>
+      <link>https://mikulove.com/2018/01/23/how-to-fix-unable-to-boot-device-because-it-cannot-be-located-on-disk-in-xcode-9/</link>
+      <pubDate>Tue, 23 Jan 2018 22:43:27 +0800</pubDate>
+      
+      <guid>https://mikulove.com/2018/01/23/how-to-fix-unable-to-boot-device-because-it-cannot-be-located-on-disk-in-xcode-9/</guid>
+      <description>&lt;h2 id=&#34;起因&#34;&gt;起因&lt;/h2&gt;
+
+&lt;p&gt;因为手残,把模拟器玩坏了,然后就喜闻乐见的运行不起来了.emmmmm.阴吹斯廷.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>为macOS软件添加Homebrew cask支持</title>
+      <link>https://mikulove.com/2018/01/11/add-macos-software-homebrew-cask-support/</link>
+      <pubDate>Thu, 11 Jan 2018 22:54:30 +0800</pubDate>
+      
+      <guid>https://mikulove.com/2018/01/11/add-macos-software-homebrew-cask-support/</guid>
+      <description>&lt;h2 id=&#34;创建索引文件&#34;&gt;创建索引文件&lt;/h2&gt;
+
+&lt;p&gt;以&amp;rsquo;VNote&amp;rsquo;为例&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

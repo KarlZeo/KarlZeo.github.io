@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Vim on 蓝白胖次</title>
+    <link>https://mikulove.com/categories/vim/</link>
+    <description>Recent content in Vim on 蓝白胖次</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 17 May 2018 17:25:11 +0800</lastBuildDate>
+    
+	<atom:link href="https://mikulove.com/categories/vim/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Fix Vim &#34;_Arguments Xxx:_vim_files Function Definition File Not Found&#34; Error</title>
+      <link>https://mikulove.com/2018/05/17/fix-vim-_arguments-xxx_vim_files-function-definition-file-not-found-error/</link>
+      <pubDate>Thu, 17 May 2018 17:25:11 +0800</pubDate>
+      
+      <guid>https://mikulove.com/2018/05/17/fix-vim-_arguments-xxx_vim_files-function-definition-file-not-found-error/</guid>
+      <description>&lt;p&gt;Today, I got the error named &amp;ldquo;_Arguments Xxx:_vim_files Function Definition File Not Found&amp;rdquo; in my server when I was edit nginx config file.&lt;/p&gt;
+
+&lt;p&gt;Then,I search this error on Google.
+&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

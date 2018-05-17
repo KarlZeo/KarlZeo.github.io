@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://mikulove.com/2018/05/17/fix-vim-_arguments-xxx_vim_files-function-definition-file-not-found-error/</loc>
+    <lastmod>2018-05-17T17:25:11+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://mikulove.com/2018/03/12/start-dhcpd-when-linux-system-startup/</loc>
     <lastmod>2018-03-12T06:14:58+08:00</lastmod>
   </url>
@@ -361,7 +366,7 @@
   
   <url>
     <loc>https://mikulove.com/post/</loc>
-    <lastmod>2018-03-12T06:14:58+08:00</lastmod>
+    <lastmod>2018-05-17T17:25:11+08:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -414,6 +419,18 @@
   </url>
   
   <url>
+    <loc>https://mikulove.com/tags/vim/</loc>
+    <lastmod>2018-05-17T17:25:11+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://mikulove.com/categories/vim/</loc>
+    <lastmod>2018-05-17T17:25:11+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://mikulove.com/tags/vlckit/</loc>
     <lastmod>2017-12-12T02:17:22+08:00</lastmod>
     <priority>0</priority>
@@ -421,7 +438,7 @@
   
   <url>
     <loc>https://mikulove.com/</loc>
-    <lastmod>2018-03-12T06:14:58+08:00</lastmod>
+    <lastmod>2018-05-17T17:25:11+08:00</lastmod>
     <priority>0</priority>
   </url>
   

@@ -22,33 +22,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="generator" content="Hugo 0.41 with theme Tranquilpeak 0.4.3-BETA">
-    <title>macOS学习笔记--使用纯代码构建macOS应用</title>
+    <title>A Strange Problem With Ruby China Gem Sources</title>
     <meta name="author" content="Karl Zeo">
-    <meta name="keywords" content="macOS, Swift">
+    <meta name="keywords" content="keywords">
 
     <link rel="icon" href="https://pbs.twimg.com/profile_images/879115090133262336/ZPOgwMdI_400x400.jpg">
     
 
     
-    <meta name="description" content="NO.1 The Start
-
-起初,由于拖延症,这篇文章我不想发的,但是纯代码构建项目的demo又写好了.前两天群里的朋友又问我要纯代码的demo.索性就借着机会把demo扔出来好了.给自己的懒癌加强一针.
+    <meta name="description" content="Today, I get a strange question for gem,the ruby package manager.I try to use sudo gem update --system and sudo gem update to update my loacl package.But it
+seems not work well.
 
 ">
-    <meta property="og:description" content="NO.1 The Start
-
-起初,由于拖延症,这篇文章我不想发的,但是纯代码构建项目的demo又写好了.前两天群里的朋友又问我要纯代码的demo.索性就借着机会把demo扔出来好了.给自己的懒癌加强一针.
+    <meta property="og:description" content="Today, I get a strange question for gem,the ruby package manager.I try to use sudo gem update --system and sudo gem update to update my loacl package.But it
+seems not work well.
 
 ">
     <meta property="og:type" content="blog">
-    <meta property="og:title" content="macOS学习笔记--使用纯代码构建macOS应用">
-    <meta property="og:url" content="/2017/06/30/macos-xue-xi-bi-ji-shi-yong-chun-dai-ma-gou-jian-mac-ying-yong/">
+    <meta property="og:title" content="A Strange Problem With Ruby China Gem Sources">
+    <meta property="og:url" content="/2018/05/27/a-strange-problem-with-ruby-china-gem-sources/">
     <meta property="og:site_name" content="蓝白胖次">
     <meta name="twitter:card" content="summary">
     <meta name="twitter:title" content="蓝白胖次">
-    <meta name="twitter:description" content="NO.1 The Start
-
-起初,由于拖延症,这篇文章我不想发的,但是纯代码构建项目的demo又写好了.前两天群里的朋友又问我要纯代码的demo.索性就借着机会把demo扔出来好了.给自己的懒癌加强一针.
+    <meta name="twitter:description" content="Today, I get a strange question for gem,the ruby package manager.I try to use sudo gem update --system and sudo gem update to update my loacl package.But it
+seems not work well.
 
 ">
     
@@ -241,19 +238,19 @@
             <div class="post-header main-content-wrap text-center">
   
     <h1 class="post-title" itemprop="headline">
-      macOS学习笔记--使用纯代码构建macOS应用
+      A Strange Problem With Ruby China Gem Sources
     </h1>
   
   
   <div class="postShorten-meta post-meta">
     
-      <time itemprop="datePublished" datetime="2017-06-30T23:03:38Z">
+      <time itemprop="datePublished" datetime="2018-05-27T03:04:27&#43;08:00">
         
   
   
   
   
-    30 June 2017
+    27 May 2018
   
 
       </time>
@@ -263,9 +260,7 @@
   
     <span>in</span>
     
-      <a class="category-link" href="https://mikulove.com/categories/macos">macOS</a>, 
-    
-      <a class="category-link" href="https://mikulove.com/categories/swift">Swift</a>
+      <a class="category-link" href="https://mikulove.com/categories/categories">categories</a>
     
   
 
@@ -275,179 +270,16 @@
           
           <div class="post-content markdown" itemprop="articleBody">
             <div class="main-content-wrap">
-              <h2 id="no-1-the-start">NO.1 The Start</h2>
-
-<p>起初,由于拖延症,这篇文章我不想发的,但是纯代码构建项目的demo又写好了.前两天群里的朋友又问我要纯代码的demo.索性就借着机会把demo扔出来好了.给自己的懒癌加强一针.</p>
+              <p>Today, I get a strange question for <code>gem</code>,the ruby package manager.I try to use <code>sudo gem update --system</code> and <code>sudo gem update</code> to update my loacl package.But it
+seems not work well.</p>
 
 <p></p>
 
-<h2 id="no-2-the-message">NO.2 The Message</h2>
+<h2 id="how-to-fix-it">How to fix it?</h2>
 
-<p>首先,从项目的结构开始看起.(因为懒,并没有做MVC分层,只是完成了基本的实现)</p>
+<p>I try to change the gem source url as <code>https://rubygems.org</code>,and the question is has be gone&hellip;&hellip;.</p>
 
-<p><img src="https://lh3.googleusercontent.com/-uLw8ENEu_FA/WVZn2-YiV9I/AAAAAAAABW8/EisHrH2TuJA2sjcIjLmC6D9-0jwqhI4WACHMYCw/I/14988325462785.jpg" alt="" /></p>
-
-<p>首先,最大的问题就是<code>main.swift</code>这个入口文件.默认的macOS工程是没有这个文件的.既然要用纯代码构建,那就把<code>info.plist</code>文件里面的指定Storyboard文件的部分删掉.这个跟iOS开发还是一模一样的.然后删掉<code>Main.storyboard</code>这个文件,反正没用了.删掉就是了.</p>
-
-<p><img src="https://lh3.googleusercontent.com/-6Do8KW-bE30/WVZn4_2wS_I/AAAAAAAABXA/8K-1bNDzHJMz1LolqEu9oxYgWLWXPpIgACHMYCw/I/14988327463717.jpg" alt="" /></p>
-
-<p>然后,开始手写入口的main函数.在这里,你需要做两件事.第一,就是在实例化NSMenu对象.因为把storyboard删掉了,所以如果不实例化NSMenu的话,你得程序启动起来,左上角的菜单将空空如也.第二,就是手动实例化应用.因为是从头开始写,所以之前自动帮你生成的东西你也要自己写一遍(阿西巴,代码好多..当然了,快捷键也要自己绑定,这时候,你就可以随意开脑洞了,比如,⌘+Q改成新建&hellip;&hellip;代码如下:</p>
-
-<pre><code class="language-swift">import Cocoa
-
-func mainMenu() -&gt; NSMenu {
-    let    mainMenu             =    NSMenu()
-    let    mainAppMenuItem      =    NSMenuItem(title: &quot;Application&quot;, action: nil, keyEquivalent: &quot;&quot;)
-    let    mainFileMenuItem     =    NSMenuItem(title: &quot;File&quot;, action: nil, keyEquivalent: &quot;&quot;)
-    mainMenu.addItem(mainAppMenuItem)
-    mainMenu.addItem(mainFileMenuItem)
-    
-    let    appMenu              =    NSMenu()
-    mainAppMenuItem.submenu     =    appMenu
-    
-    let    appServicesMenu      =    NSMenu()
-    NSApp.servicesMenu          =    appServicesMenu
-    appMenu.addItem(withTitle: &quot;About&quot;, action: nil, keyEquivalent: &quot;&quot;)
-    appMenu.addItem(NSMenuItem.separator())
-    appMenu.addItem(withTitle: &quot;Preferences...&quot;, action: nil, keyEquivalent: &quot;,&quot;)
-    appMenu.addItem(NSMenuItem.separator())
-    appMenu.addItem(withTitle: &quot;Hide&quot;, action: #selector(NSApplication.hide(_:)), keyEquivalent: &quot;h&quot;)
-    appMenu.addItem({ ()-&gt;NSMenuItem in
-        let m = NSMenuItem(title: &quot;Hide Others&quot;, action: #selector(NSApplication.hideOtherApplications(_:)), keyEquivalent: &quot;h&quot;)
-        m.keyEquivalentModifierMask = NSEvent.ModifierFlags([.command, .option])
-        return m
-        }())
-    appMenu.addItem(withTitle: &quot;Show All&quot;, action: #selector(NSApplication.unhideAllApplications(_:)), keyEquivalent: &quot;&quot;)
-    
-    appMenu.addItem(NSMenuItem.separator())
-    appMenu.addItem(withTitle: &quot;Services&quot;, action: nil, keyEquivalent: &quot;&quot;).submenu    =    appServicesMenu
-    appMenu.addItem(NSMenuItem.separator())
-    appMenu.addItem(withTitle: &quot;Quit&quot;, action: #selector(NSApplication.terminate(_:)), keyEquivalent: &quot;q&quot;)
-    
-    let    fileMenu             =    NSMenu(title: &quot;File&quot;)
-    mainFileMenuItem.submenu    =    fileMenu
-    fileMenu.addItem(withTitle: &quot;New...&quot;, action: #selector(NSDocumentController.newDocument(_:)), keyEquivalent: &quot;n&quot;)
-    
-    return mainMenu
-}
-
-autoreleasepool {
-    let app =   NSApplication.shared //创建应用
-    let delegate = AppDelegate()
-    app.delegate =  delegate //配置应用代理
-    app.mainMenu = mainMenu() //配置菜单，mainMenu 函数需要前向定义，否则编译错误
-    app.run() //启动应用
-}
-</code></pre>
-
-<p>iOS的程序都是单窗口的,所以没有<code>WindowController</code>这个概念,而macOS不一样,如果是单窗口就坏事了.所以引入了<code>WindowController</code>这个概念,其实这个跟<code>View</code>和<code>ViewController</code>是差不多的.所以对<code>Window</code>的所有操作直接写在<code>WindowController</code>里面就好了.对<code>View</code>的操作写在<code>ViewController</code>里面.</p>
-
-<p>由于是纯代码工程.所以我们需要手动创建自己的<code>WindowController</code>和<code>ViewController</code>.然后,在<code>AppDelegate.swift</code>里面对<code>WindowController</code>进行实例化.注意注释掉<code>@NSApplicationMain</code>.最后使用<code>WindowController</code>的<code>showWindow</code>方法把这个窗口显示出来.</p>
-
-<pre><code class="language-swift">class AppDelegate: NSObject, NSApplicationDelegate {
-    
-    lazy var windowController: KZWindowController = {
-        let windowController = KZWindowController()
-        return windowController
-    }()
-    
-    func applicationDidFinishLaunching(_ aNotification: Notification) {
-        // Insert code here to initialize your application
-        self.windowController.showWindow(self)
-    }
-
-    func applicationWillTerminate(_ aNotification: Notification) {
-        // Insert code here to tear down your application
-    }
-
-
-}
-</code></pre>
-
-<p>然后,在<code>WindowController</code>里面初始化<code>Window</code>.定义<code>Window</code>的大小,座标以及各种属性.然后重写<code>init</code>方法和<code>init?(coder:)</code>方法.最后,在<code>init</code>方法里面实例化<code>ViewController</code>.</p>
-
-<pre><code class="language-swift">class KZWindowController: NSWindowController {
-
-    override func windowDidLoad() {
-        super.windowDidLoad()
-        
-    }
-    
-    lazy var myWindow: NSWindow? = {
-        let frame: CGRect = CGRect(x: 0, y: 0, width: 400, height: 280)
-        let style: NSWindow.StyleMask = [.titled,.closable,.resizable]
-        let back: NSWindow.BackingStoreType = .buffered
-        let window: KZWindow = KZWindow(contentRect: frame, styleMask: style, backing: back, defer: false)
-        window.title = &quot;Test Window&quot;
-        window.windowController = self
-        return window
-}()
-    
-    lazy var viewController: KZViewController = {
-        let viewController = KZViewController()
-        return viewController
-    }()
-    
-    override init(window: NSWindow?) {
-        super.init(window: window)
-        self.window = self.myWindow
-        self.contentViewController = self.viewController
-        self.window?.center()
-    }
-    
-    required init?(coder: NSCoder) {
-        fatalError(&quot;init(coder:) has not been implemented&quot;)
-    }
-
-}
-</code></pre>
-
-<p>剩下的在<code>ViewController</code>里面实例化<code>View</code>就跟iOS差不了太多了.</p>
-
-<pre><code class="language-swift">class KZViewController: NSViewController {
-
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do view setup here.
-    }
-    
-    lazy var myView: KZView = {
-        let frame: CGRect = CGRect(x: 0, y: 0, width: 400, height: 300)
-        let view: KZView = KZView(frame: frame)
-        return view
-    }()
-    
-    override init(nibName nibNameOrNil: NSNib.Name?, bundle nibBundleOrNil: Bundle?) {
-        super.init(nibName: nibNameOrNil, bundle: nibBundleOrNil)
-        self.view = self.myView
-    }
-    
-    required init?(coder: NSCoder) {
-        fatalError(&quot;init(coder:) has not been implemented&quot;)
-    }
-    
-}
-</code></pre>
-
-<p>最后,⌘+R运行一下,只要没有语法错误,这时候应用就已经启动了.然后你就会发现,WTF!!!写了这么多,就一个白板&hellip;..就是下面这个.</p>
-
-<p><img src="https://lh3.googleusercontent.com/-JCgFeO7jdPM/WVZn8_wsWNI/AAAAAAAABXQ/KHIjryYUYxktz88c87asPM14FcgE4sBRwCHMYCw/I/14988345216468.jpg" alt="" /></p>
-
-<p>啥都没有,干净的像是白瓷砖&hellip;.所以说,没有什么特殊的需求,不要使用纯代码&hellip;.第一是累,第二嘛,就是麻烦.很多东西明明自动处理好了,但是还是要自己手写.比如上面的<code>NSMenu</code>.如果真的要使用代码的话,建议保留<code>NSMenu</code>相关的视图可视化部分.能省很多的功夫,少写很多不必要的代码.</p>
-
-<h2 id="no-3-the-code">NO.3 The Code</h2>
-
-<p><a href="https://github.com/KarlZeo/macOSNoSBXib">https://github.com/KarlZeo/macOSNoSBXib</a></p>
-
-<h2 id="no-4-thanks-for">NO.4 Thanks for</h2>
-
-<p><a href="http://macdev.io/">剑指人心</a>大佬的入门书籍以及Demo.</p>
-
-<h2 id="no-5-changelog">NO.5 ChangeLog</h2>
-
-<p>2018.03.26 代码升级<code>Swift 4</code>,替换部分图片为代码块.</p>
-
-<p>2017.06.30 发布,代码基于<code>Swift 3.1</code>.</p>
+<p>I don&rsquo;t know what the fuck with ruby china gem source mirrors.But I think use the defaults config with network proxy is the best way.</p>
               
             </div>
           </div>
@@ -459,9 +291,7 @@ autoreleasepool {
                   <div class="post-footer-tags">
                     <span class="text-color-light text-small">TAGGED IN</span><br/>
                     
-  <a class="tag tag--primary tag--small" href="https://mikulove.com/tags/macos/">macOS</a>
-
-  <a class="tag tag--primary tag--small" href="https://mikulove.com/tags/swift/">Swift</a>
+  <a class="tag tag--primary tag--small" href="https://mikulove.com/tags/tags/">tags</a>
 
                   </div>
                 
@@ -474,7 +304,7 @@ autoreleasepool {
           
             <li class="post-action">
               
-                <a class="post-action-btn btn btn--default tooltip--top" href="https://mikulove.com/2017/07/06/xiu-fu-homebrew-warning-insecure-world-writable-dir/" data-tooltip="修复Homebrew warning Insecure world writable dir /usr/local/bin in PATH, mode 040777">
+                <a class="post-action-btn btn btn--disabled">
               
                   <i class="fa fa-angle-left"></i>
                   <span class="hide-xs hide-sm text-small icon-ml">NEXT</span>
@@ -482,7 +312,7 @@ autoreleasepool {
             </li>
             <li class="post-action">
               
-                <a class="post-action-btn btn btn--default tooltip--top" href="https://mikulove.com/2017/06/02/macos-xue-xi-bi-ji-ikpicturetaker-wan-shua-ji-lu/" data-tooltip="macOS学习笔记--IKPictureTaker玩耍记录">
+                <a class="post-action-btn btn btn--default tooltip--top" href="https://mikulove.com/2018/05/17/fix-vim-_arguments-xxx_vim_files-function-definition-file-not-found-error/" data-tooltip="Fix Vim &#34;_Arguments Xxx:_vim_files Function Definition File Not Found&#34; Error">
               
                   <span class="hide-xs hide-sm text-small icon-mr">PREVIOUS</span>
                   <i class="fa fa-angle-right"></i>
@@ -500,19 +330,19 @@ autoreleasepool {
         </li>
         
           <li class="post-action hide-xs">
-            <a class="post-action-btn btn btn--default" target="new" href="https://www.facebook.com/sharer/sharer.php?u=https://mikulove.com/2017/06/30/macos-xue-xi-bi-ji-shi-yong-chun-dai-ma-gou-jian-mac-ying-yong/">
+            <a class="post-action-btn btn btn--default" target="new" href="https://www.facebook.com/sharer/sharer.php?u=https://mikulove.com/2018/05/27/a-strange-problem-with-ruby-china-gem-sources/">
               <i class="fa fa-facebook-official"></i>
             </a>
           </li>
         
           <li class="post-action hide-xs">
-            <a class="post-action-btn btn btn--default" target="new" href="https://twitter.com/intent/tweet?text=https://mikulove.com/2017/06/30/macos-xue-xi-bi-ji-shi-yong-chun-dai-ma-gou-jian-mac-ying-yong/">
+            <a class="post-action-btn btn btn--default" target="new" href="https://twitter.com/intent/tweet?text=https://mikulove.com/2018/05/27/a-strange-problem-with-ruby-china-gem-sources/">
               <i class="fa fa-twitter"></i>
             </a>
           </li>
         
           <li class="post-action hide-xs">
-            <a class="post-action-btn btn btn--default" target="new" href="https://plus.google.com/share?url=https://mikulove.com/2017/06/30/macos-xue-xi-bi-ji-shi-yong-chun-dai-ma-gou-jian-mac-ying-yong/">
+            <a class="post-action-btn btn btn--default" target="new" href="https://plus.google.com/share?url=https://mikulove.com/2018/05/27/a-strange-problem-with-ruby-china-gem-sources/">
               <i class="fa fa-google-plus"></i>
             </a>
           </li>
@@ -560,7 +390,7 @@ autoreleasepool {
           
             <li class="post-action">
               
-                <a class="post-action-btn btn btn--default tooltip--top" href="https://mikulove.com/2017/07/06/xiu-fu-homebrew-warning-insecure-world-writable-dir/" data-tooltip="修复Homebrew warning Insecure world writable dir /usr/local/bin in PATH, mode 040777">
+                <a class="post-action-btn btn btn--disabled">
               
                   <i class="fa fa-angle-left"></i>
                   <span class="hide-xs hide-sm text-small icon-ml">NEXT</span>
@@ -568,7 +398,7 @@ autoreleasepool {
             </li>
             <li class="post-action">
               
-                <a class="post-action-btn btn btn--default tooltip--top" href="https://mikulove.com/2017/06/02/macos-xue-xi-bi-ji-ikpicturetaker-wan-shua-ji-lu/" data-tooltip="macOS学习笔记--IKPictureTaker玩耍记录">
+                <a class="post-action-btn btn btn--default tooltip--top" href="https://mikulove.com/2018/05/17/fix-vim-_arguments-xxx_vim_files-function-definition-file-not-found-error/" data-tooltip="Fix Vim &#34;_Arguments Xxx:_vim_files Function Definition File Not Found&#34; Error">
               
                   <span class="hide-xs hide-sm text-small icon-mr">PREVIOUS</span>
                   <i class="fa fa-angle-right"></i>
@@ -586,19 +416,19 @@ autoreleasepool {
         </li>
         
           <li class="post-action hide-xs">
-            <a class="post-action-btn btn btn--default" target="new" href="https://www.facebook.com/sharer/sharer.php?u=https://mikulove.com/2017/06/30/macos-xue-xi-bi-ji-shi-yong-chun-dai-ma-gou-jian-mac-ying-yong/">
+            <a class="post-action-btn btn btn--default" target="new" href="https://www.facebook.com/sharer/sharer.php?u=https://mikulove.com/2018/05/27/a-strange-problem-with-ruby-china-gem-sources/">
               <i class="fa fa-facebook-official"></i>
             </a>
           </li>
         
           <li class="post-action hide-xs">
-            <a class="post-action-btn btn btn--default" target="new" href="https://twitter.com/intent/tweet?text=https://mikulove.com/2017/06/30/macos-xue-xi-bi-ji-shi-yong-chun-dai-ma-gou-jian-mac-ying-yong/">
+            <a class="post-action-btn btn btn--default" target="new" href="https://twitter.com/intent/tweet?text=https://mikulove.com/2018/05/27/a-strange-problem-with-ruby-china-gem-sources/">
               <i class="fa fa-twitter"></i>
             </a>
           </li>
         
           <li class="post-action hide-xs">
-            <a class="post-action-btn btn btn--default" target="new" href="https://plus.google.com/share?url=https://mikulove.com/2017/06/30/macos-xue-xi-bi-ji-shi-yong-chun-dai-ma-gou-jian-mac-ying-yong/">
+            <a class="post-action-btn btn btn--default" target="new" href="https://plus.google.com/share?url=https://mikulove.com/2018/05/27/a-strange-problem-with-ruby-china-gem-sources/">
               <i class="fa fa-google-plus"></i>
             </a>
           </li>
@@ -628,19 +458,19 @@ autoreleasepool {
   <ul class="share-options">
     
       <li class="share-option">
-        <a class="share-option-btn" target="new" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fmikulove.com%2F2017%2F06%2F30%2Fmacos-xue-xi-bi-ji-shi-yong-chun-dai-ma-gou-jian-mac-ying-yong%2F">
+        <a class="share-option-btn" target="new" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fmikulove.com%2F2018%2F05%2F27%2Fa-strange-problem-with-ruby-china-gem-sources%2F">
           <i class="fa fa-facebook-official"></i><span>Share on Facebook</span>
         </a>
       </li>
     
       <li class="share-option">
-        <a class="share-option-btn" target="new" href="https://twitter.com/intent/tweet?text=https%3A%2F%2Fmikulove.com%2F2017%2F06%2F30%2Fmacos-xue-xi-bi-ji-shi-yong-chun-dai-ma-gou-jian-mac-ying-yong%2F">
+        <a class="share-option-btn" target="new" href="https://twitter.com/intent/tweet?text=https%3A%2F%2Fmikulove.com%2F2018%2F05%2F27%2Fa-strange-problem-with-ruby-china-gem-sources%2F">
           <i class="fa fa-twitter"></i><span>Share on Twitter</span>
         </a>
       </li>
     
       <li class="share-option">
-        <a class="share-option-btn" target="new" href="https://plus.google.com/share?url=https%3A%2F%2Fmikulove.com%2F2017%2F06%2F30%2Fmacos-xue-xi-bi-ji-shi-yong-chun-dai-ma-gou-jian-mac-ying-yong%2F">
+        <a class="share-option-btn" target="new" href="https://plus.google.com/share?url=https%3A%2F%2Fmikulove.com%2F2018%2F05%2F27%2Fa-strange-problem-with-ruby-china-gem-sources%2F">
           <i class="fa fa-google-plus"></i><span>Share on Google&#43;</span>
         </a>
       </li>
@@ -942,9 +772,9 @@ seems not work well.</p>
     
       <script>
         var disqus_config = function () {
-          this.page.url = 'https:\/\/mikulove.com\/2017\/06\/30\/macos-xue-xi-bi-ji-shi-yong-chun-dai-ma-gou-jian-mac-ying-yong\/';
+          this.page.url = 'https:\/\/mikulove.com\/2018\/05\/27\/a-strange-problem-with-ruby-china-gem-sources\/';
           
-            this.page.identifier = '\/2017\/06\/30\/macos-xue-xi-bi-ji-shi-yong-chun-dai-ma-gou-jian-mac-ying-yong\/'
+            this.page.identifier = '\/2018\/05\/27\/a-strange-problem-with-ruby-china-gem-sources\/'
           
         };
         (function() {

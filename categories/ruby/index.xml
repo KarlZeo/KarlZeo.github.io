@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ruby on 蓝白胖次</title>
+    <link>https://mikulove.com/categories/ruby/</link>
+    <description>Recent content in Ruby on 蓝白胖次</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 27 May 2018 03:04:27 +0800</lastBuildDate>
+    
+	<atom:link href="https://mikulove.com/categories/ruby/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>A Strange Problem With Ruby China Gem Sources</title>
+      <link>https://mikulove.com/2018/05/27/a-strange-problem-with-ruby-china-gem-sources/</link>
+      <pubDate>Sun, 27 May 2018 03:04:27 +0800</pubDate>
+      
+      <guid>https://mikulove.com/2018/05/27/a-strange-problem-with-ruby-china-gem-sources/</guid>
+      <description>&lt;p&gt;Today, I get a strange question for &lt;code&gt;gem&lt;/code&gt;,the ruby package manager.I try to use &lt;code&gt;sudo gem update --system&lt;/code&gt; and &lt;code&gt;sudo gem update&lt;/code&gt; to update my loacl package.But it
+seems not work well.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

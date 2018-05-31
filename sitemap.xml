@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://mikulove.com/2018/05/31/how-to-manager-macos-app-in-a-well-way/</loc>
+    <lastmod>2018-05-31T23:07:51+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://mikulove.com/2018/05/27/a-strange-problem-with-ruby-china-gem-sources/</loc>
     <lastmod>2018-05-27T03:04:27+08:00</lastmod>
   </url>
@@ -166,6 +171,12 @@
   </url>
   
   <url>
+    <loc>https://mikulove.com/tags/command-line-tool/</loc>
+    <lastmod>2018-05-31T23:07:51+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://mikulove.com/tags/dash/</loc>
     <lastmod>2017-09-29T19:58:29+00:00</lastmod>
     <priority>0</priority>
@@ -203,7 +214,7 @@
   
   <url>
     <loc>https://mikulove.com/tags/homebrew/</loc>
-    <lastmod>2017-07-20T01:04:36+00:00</lastmod>
+    <lastmod>2018-05-31T23:07:51+08:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -287,13 +298,13 @@
   
   <url>
     <loc>https://mikulove.com/tags/macos/</loc>
-    <lastmod>2018-05-27T03:04:27+08:00</lastmod>
+    <lastmod>2018-05-31T23:07:51+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://mikulove.com/categories/macos/</loc>
-    <lastmod>2017-12-12T02:17:22+08:00</lastmod>
+    <lastmod>2018-05-31T23:07:51+08:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -377,7 +388,7 @@
   
   <url>
     <loc>https://mikulove.com/post/</loc>
-    <lastmod>2018-05-27T03:04:27+08:00</lastmod>
+    <lastmod>2018-05-31T23:07:51+08:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -461,7 +472,7 @@
   
   <url>
     <loc>https://mikulove.com/</loc>
-    <lastmod>2018-05-27T03:04:27+08:00</lastmod>
+    <lastmod>2018-05-31T23:07:51+08:00</lastmod>
     <priority>0</priority>
   </url>
   

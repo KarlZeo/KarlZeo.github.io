@@ -6,10 +6,19 @@
     <description>Recent content in Tags on 蓝白胖次</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 10 Mar 2018 01:29:47 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 17 Jul 2018 12:52:38 +0800</lastBuildDate>
     
 	<atom:link href="https://mikulove.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Airmail</title>
+      <link>https://mikulove.com/tags/airmail/</link>
+      <pubDate>Tue, 17 Jul 2018 12:52:38 +0800</pubDate>
+      
+      <guid>https://mikulove.com/tags/airmail/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Arch Linux</title>
@@ -95,7 +104,7 @@
     <item>
       <title>Ios</title>
       <link>https://mikulove.com/tags/ios/</link>
-      <pubDate>Thu, 16 Mar 2017 13:23:14 +0000</pubDate>
+      <pubDate>Tue, 17 Jul 2018 12:52:38 +0800</pubDate>
       
       <guid>https://mikulove.com/tags/ios/</guid>
       <description></description>
@@ -140,9 +149,18 @@
     <item>
       <title>Macos</title>
       <link>https://mikulove.com/tags/macos/</link>
-      <pubDate>Thu, 31 May 2018 23:07:51 +0800</pubDate>
+      <pubDate>Tue, 17 Jul 2018 12:52:38 +0800</pubDate>
       
       <guid>https://mikulove.com/tags/macos/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mail</title>
+      <link>https://mikulove.com/tags/mail/</link>
+      <pubDate>Tue, 17 Jul 2018 12:52:38 +0800</pubDate>
+      
+      <guid>https://mikulove.com/tags/mail/</guid>
       <description></description>
     </item>
     

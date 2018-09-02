@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Openwrt / Lede on 蓝白胖次</title>
+    <link>https://mikulove.com/tags/openwrt-lede/</link>
+    <description>Recent content in Openwrt / Lede on 蓝白胖次</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 17 Dec 2017 22:24:05 +0800</lastBuildDate>
+    
+	<atom:link href="https://mikulove.com/tags/openwrt-lede/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>使用tftp命令更新路由器固件</title>
+      <link>https://mikulove.com/2017/12/17/use-tftp-command-to-flash-the-router-firmware/</link>
+      <pubDate>Sun, 17 Dec 2017 22:24:05 +0800</pubDate>
+      
+      <guid>https://mikulove.com/2017/12/17/use-tftp-command-to-flash-the-router-firmware/</guid>
+      <description>&lt;h2 id=&#34;背景&#34;&gt;背景&lt;/h2&gt;
+
+&lt;p&gt;闲得蛋疼手贱,把路由器里面执行了&lt;code&gt;rm -rf&lt;/code&gt;删除了某些系统文件.&lt;code&gt;sysupgrade&lt;/code&gt;命令升级固件喜闻乐见的失败了.于是就翻车了.&lt;/p&gt;
+
+&lt;h2 id=&#34;下载镜像&#34;&gt;下载镜像&lt;/h2&gt;
+
+&lt;p&gt;准备一个完整的路由器镜像.刷入之前做md5校验.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>OpenWRT 作死记录</title>
+      <link>https://mikulove.com/2016/07/18/openwrt-zuo-si-ji-lu/</link>
+      <pubDate>Mon, 18 Jul 2016 13:23:55 +0000</pubDate>
+      
+      <guid>https://mikulove.com/2016/07/18/openwrt-zuo-si-ji-lu/</guid>
+      <description>&lt;h2 id=&#34;1-什么是openwrt&#34;&gt;1. 什么是OpenWRT&lt;/h2&gt;
+
+&lt;p&gt;OpenWrt是适合于嵌入式设备的一个Linux发行版。相对原厂固件而言，OpenWrt不是一个单一、静态的固件，而是提供了一个可添加软件包的可写的文件系统。这使使用者可以自由的选择应用程序和配置，而不必受设备提供商的限制，并且可以使用一些适合某方面应用的软件包来定制你的设备。对于开发者来说，OpenWrt是一个框架，開發者不必麻烦的构建整个固件就能得到想要的应用程序；对于使用者来说，这意味着完全定制的能力，與以往不同的方式使用设备，OPKG包含超过3500个软件。 默认使用LuCI作为web交互界面。&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

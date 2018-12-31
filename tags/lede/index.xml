@@ -17,8 +17,7 @@
       <pubDate>Thu, 01 Mar 2018 21:58:59 +0800</pubDate>
       
       <guid>https://mikulove.com/2018/03/01/fix-lede-pppoe-connect-bug/</guid>
-      <description>&lt;p&gt;突然间,我家的WNDR3800就无法连接网络了.神奇的很.不知道是移动公司改了什么东西,还是固件本身就有Bug.总之就是上不去网了.起初,我以为是&lt;code&gt;wan&lt;/code&gt;口烧了.但是刷入&lt;code&gt;Gargoyle&lt;/code&gt;固件以后,又神奇的可以工作了.emmmmm,很明显是LEDE自己又做了什么负优化.
-&lt;/p&gt;</description>
+      <description>&lt;p&gt;突然间,我家的WNDR3800就无法连接网络了.神奇的很.不知道是移动公司改了什么东西,还是固件本身就有Bug.总之就是上不去网了.起初,我以为是&lt;code&gt;wan&lt;/code&gt;口烧了.但是刷入&lt;code&gt;Gargoyle&lt;/code&gt;固件以后,又神奇的可以工作了.emmmmm,很明显是LEDE自己又做了什么负优化.&lt;/p&gt;</description>
     </item>
     
   </channel>

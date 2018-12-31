@@ -18,9 +18,7 @@
       
       <guid>https://mikulove.com/2018/05/27/a-strange-problem-with-ruby-china-gem-sources/</guid>
       <description>&lt;p&gt;Today, I get a strange question for &lt;code&gt;gem&lt;/code&gt;,the ruby package manager.I try to use &lt;code&gt;sudo gem update --system&lt;/code&gt; and &lt;code&gt;sudo gem update&lt;/code&gt; to update my loacl package.But it
-seems not work well.&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+seems not work well.&lt;/p&gt;</description>
     </item>
     
   </channel>

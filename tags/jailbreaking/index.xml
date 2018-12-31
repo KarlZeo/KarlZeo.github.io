@@ -22,9 +22,7 @@
 &lt;p&gt;安装 &lt;code&gt;OCaml&lt;/code&gt;&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;brew install opam
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+&lt;/code&gt;&lt;/pre&gt;</description>
     </item>
     
   </channel>

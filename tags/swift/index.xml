@@ -19,9 +19,7 @@
       <guid>https://mikulove.com/2017/06/30/macos-xue-xi-bi-ji-shi-yong-chun-dai-ma-gou-jian-mac-ying-yong/</guid>
       <description>&lt;h2 id=&#34;no-1-the-start&#34;&gt;NO.1 The Start&lt;/h2&gt;
 
-&lt;p&gt;起初,由于拖延症,这篇文章我不想发的,但是纯代码构建项目的demo又写好了.前两天群里的朋友又问我要纯代码的demo.索性就借着机会把demo扔出来好了.给自己的懒癌加强一针.&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+&lt;p&gt;起初,由于拖延症,这篇文章我不想发的,但是纯代码构建项目的demo又写好了.前两天群里的朋友又问我要纯代码的demo.索性就借着机会把demo扔出来好了.给自己的懒癌加强一针.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -32,9 +30,7 @@
       <guid>https://mikulove.com/2017/06/02/macos-xue-xi-bi-ji-ikpicturetaker-wan-shua-ji-lu/</guid>
       <description>&lt;h2 id=&#34;起因&#34;&gt;起因&lt;/h2&gt;
 
-&lt;p&gt;某天,在mac交流群有人问到类似macQQ的选取头像功能怎么实现.印象中在Telegram上面有个相同的功能,就把Telegram的源码Clone下来查看了一番,于是定位到了这个组件,查阅了一下官方文档和Demo,确实是一个自带的控件.但是官方的范例是2013年的,而且还是远古时期的oc代码.于是就有了本篇博客.&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+&lt;p&gt;某天,在mac交流群有人问到类似macQQ的选取头像功能怎么实现.印象中在Telegram上面有个相同的功能,就把Telegram的源码Clone下来查看了一番,于是定位到了这个组件,查阅了一下官方文档和Demo,确实是一个自带的控件.但是官方的范例是2013年的,而且还是远古时期的oc代码.于是就有了本篇博客.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -51,9 +47,7 @@
 
 &lt;pre&gt;&lt;code&gt;&amp;lt;key&amp;gt;LSUIElement&amp;lt;/key&amp;gt;
 &amp;lt;true/&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+&lt;/code&gt;&lt;/pre&gt;</description>
     </item>
     
     <item>
@@ -62,9 +56,7 @@
       <pubDate>Sun, 12 Mar 2017 13:23:49 +0000</pubDate>
       
       <guid>https://mikulove.com/2017/03/12/macos-xue-xi-bi-ji-yin-cang-titlebar-bao-liu-guan-bi-an-niu/</guid>
-      <description>&lt;p&gt;mac自带的titlebar,总之就是一个字,丑,两个字,非常丑,啊,不对,这是三个字.总之就是非常丑.(不要在意这些细节)&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;mac自带的titlebar,总之就是一个字,丑,两个字,非常丑,啊,不对,这是三个字.总之就是非常丑.(不要在意这些细节)&lt;/p&gt;</description>
     </item>
     
   </channel>

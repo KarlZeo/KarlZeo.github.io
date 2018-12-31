@@ -17,9 +17,7 @@
       <pubDate>Tue, 17 Jul 2018 12:52:38 +0800</pubDate>
       
       <guid>https://mikulove.com/2018/07/17/how-to-set-netease-enterprise-mailbox-on-airmail/</guid>
-      <description>&lt;p&gt;Now, I go to a new company and start my worker life.This company have their own private Enterprise Mailbox(use NetEase Enterprise Mailbox service).I like manager my mail on one Application.I dont&amp;rsquo;t like do one things by many ways.&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;Now, I go to a new company and start my worker life.This company have their own private Enterprise Mailbox(use NetEase Enterprise Mailbox service).I like manager my mail on one Application.I dont&amp;rsquo;t like do one things by many ways.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -28,9 +26,7 @@
       <pubDate>Thu, 31 May 2018 23:07:51 +0800</pubDate>
       
       <guid>https://mikulove.com/2018/05/31/how-to-manager-macos-app-in-a-well-way/</guid>
-      <description>&lt;p&gt;I am a Linux user before using macOS.In Linux, We can using the package manager install the all Apps. But in macOS, it not. So, how can I use one command to upgrade all App and command line tools like Linux? So, I find a good &lt;code&gt;Homebrew Plugin&lt;/code&gt;.&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;I am a Linux user before using macOS.In Linux, We can using the package manager install the all Apps. But in macOS, it not. So, how can I use one command to upgrade all App and command line tools like Linux? So, I find a good &lt;code&gt;Homebrew Plugin&lt;/code&gt;.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -40,9 +36,7 @@
       
       <guid>https://mikulove.com/2018/05/27/a-strange-problem-with-ruby-china-gem-sources/</guid>
       <description>&lt;p&gt;Today, I get a strange question for &lt;code&gt;gem&lt;/code&gt;,the ruby package manager.I try to use &lt;code&gt;sudo gem update --system&lt;/code&gt; and &lt;code&gt;sudo gem update&lt;/code&gt; to update my loacl package.But it
-seems not work well.&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+seems not work well.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -53,9 +47,7 @@ seems not work well.&lt;/p&gt;
       <guid>https://mikulove.com/2017/12/12/build-vlckit-for-macos/</guid>
       <description>&lt;h2 id=&#34;拉取代码&#34;&gt;拉取代码&lt;/h2&gt;
 
-&lt;p&gt;首先把&lt;code&gt;VLCKit&lt;/code&gt;的源码从git上面拉下来.&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+&lt;p&gt;首先把&lt;code&gt;VLCKit&lt;/code&gt;的源码从git上面拉下来.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -67,9 +59,7 @@ seems not work well.&lt;/p&gt;
       <description>&lt;h2 id=&#34;安装-doxygen&#34;&gt;安装&lt;code&gt;doxygen&lt;/code&gt;&lt;/h2&gt;
 
 &lt;pre&gt;&lt;code&gt;brew info doxygen
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+&lt;/code&gt;&lt;/pre&gt;</description>
     </item>
     
     <item>
@@ -78,9 +68,7 @@ seems not work well.&lt;/p&gt;
       <pubDate>Thu, 20 Jul 2017 01:04:36 +0000</pubDate>
       
       <guid>https://mikulove.com/2017/07/20/ru-he-yong-homebrew-wan-mei-de-zhong-zhuang-mpv/</guid>
-      <description>&lt;p&gt;每次&lt;code&gt;brew update&lt;/code&gt;，都会把所有安装的命令行软件全部更新到最新，于是乎就导致了一个问题。某个程序是依赖一个低版本的库编译的，但是它升级到了高版本，但是原程序指向的还是低版本的库，于是程序就蹦沙卡拉卡了。比如下面的&lt;code&gt;mpv&lt;/code&gt;就经常出这个问题。&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;每次&lt;code&gt;brew update&lt;/code&gt;，都会把所有安装的命令行软件全部更新到最新，于是乎就导致了一个问题。某个程序是依赖一个低版本的库编译的，但是它升级到了高版本，但是原程序指向的还是低版本的库，于是程序就蹦沙卡拉卡了。比如下面的&lt;code&gt;mpv&lt;/code&gt;就经常出这个问题。&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -89,9 +77,7 @@ seems not work well.&lt;/p&gt;
       <pubDate>Thu, 06 Jul 2017 01:06:04 +0000</pubDate>
       
       <guid>https://mikulove.com/2017/07/06/xiu-fu-homebrew-warning-insecure-world-writable-dir/</guid>
-      <description>&lt;p&gt;某天手残,乱改目录权限,导致 &lt;code&gt;Homebrew&lt;/code&gt; 频繁爆 &lt;code&gt;warning&lt;/code&gt; ,虽然不影响使用,但是,作为一个强迫症,我看着难受啊.&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;某天手残,乱改目录权限,导致 &lt;code&gt;Homebrew&lt;/code&gt; 频繁爆 &lt;code&gt;warning&lt;/code&gt; ,虽然不影响使用,但是,作为一个强迫症,我看着难受啊.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -102,9 +88,7 @@ seems not work well.&lt;/p&gt;
       <guid>https://mikulove.com/2017/06/30/macos-xue-xi-bi-ji-shi-yong-chun-dai-ma-gou-jian-mac-ying-yong/</guid>
       <description>&lt;h2 id=&#34;no-1-the-start&#34;&gt;NO.1 The Start&lt;/h2&gt;
 
-&lt;p&gt;起初,由于拖延症,这篇文章我不想发的,但是纯代码构建项目的demo又写好了.前两天群里的朋友又问我要纯代码的demo.索性就借着机会把demo扔出来好了.给自己的懒癌加强一针.&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+&lt;p&gt;起初,由于拖延症,这篇文章我不想发的,但是纯代码构建项目的demo又写好了.前两天群里的朋友又问我要纯代码的demo.索性就借着机会把demo扔出来好了.给自己的懒癌加强一针.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -115,9 +99,7 @@ seems not work well.&lt;/p&gt;
       <guid>https://mikulove.com/2017/06/02/macos-xue-xi-bi-ji-ikpicturetaker-wan-shua-ji-lu/</guid>
       <description>&lt;h2 id=&#34;起因&#34;&gt;起因&lt;/h2&gt;
 
-&lt;p&gt;某天,在mac交流群有人问到类似macQQ的选取头像功能怎么实现.印象中在Telegram上面有个相同的功能,就把Telegram的源码Clone下来查看了一番,于是定位到了这个组件,查阅了一下官方文档和Demo,确实是一个自带的控件.但是官方的范例是2013年的,而且还是远古时期的oc代码.于是就有了本篇博客.&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+&lt;p&gt;某天,在mac交流群有人问到类似macQQ的选取头像功能怎么实现.印象中在Telegram上面有个相同的功能,就把Telegram的源码Clone下来查看了一番,于是定位到了这个组件,查阅了一下官方文档和Demo,确实是一个自带的控件.但是官方的范例是2013年的,而且还是远古时期的oc代码.于是就有了本篇博客.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -134,9 +116,7 @@ seems not work well.&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;&amp;lt;key&amp;gt;LSUIElement&amp;lt;/key&amp;gt;
 &amp;lt;true/&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+&lt;/code&gt;&lt;/pre&gt;</description>
     </item>
     
     <item>
@@ -147,9 +127,7 @@ seems not work well.&lt;/p&gt;
       <guid>https://mikulove.com/2017/03/22/bian-yi-shu-xu-guan-de-keng/</guid>
       <description>&lt;h2 id=&#34;前言&#34;&gt;前言&lt;/h2&gt;
 
-&lt;p&gt;最近编译Squirrel,各种Error,查了下GitHub的工单,发现是 &lt;code&gt;snappy&lt;/code&gt; 导致的.&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+&lt;p&gt;最近编译Squirrel,各种Error,查了下GitHub的工单,发现是 &lt;code&gt;snappy&lt;/code&gt; 导致的.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -158,9 +136,7 @@ seems not work well.&lt;/p&gt;
       <pubDate>Sun, 12 Mar 2017 13:23:49 +0000</pubDate>
       
       <guid>https://mikulove.com/2017/03/12/macos-xue-xi-bi-ji-yin-cang-titlebar-bao-liu-guan-bi-an-niu/</guid>
-      <description>&lt;p&gt;mac自带的titlebar,总之就是一个字,丑,两个字,非常丑,啊,不对,这是三个字.总之就是非常丑.(不要在意这些细节)&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;mac自带的titlebar,总之就是一个字,丑,两个字,非常丑,啊,不对,这是三个字.总之就是非常丑.(不要在意这些细节)&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -171,9 +147,7 @@ seems not work well.&lt;/p&gt;
       <guid>https://mikulove.com/2016/07/26/phpstorm-pei-zhi-ji-lu/</guid>
       <description>&lt;h2 id=&#34;mamp-配置&#34;&gt;MAMP 配置&lt;/h2&gt;
 
-&lt;p&gt;PHP集成开发环境,不解释.&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+&lt;p&gt;PHP集成开发环境,不解释.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -182,9 +156,7 @@ seems not work well.&lt;/p&gt;
       <pubDate>Sat, 30 Apr 2016 13:23:26 +0000</pubDate>
       
       <guid>https://mikulove.com/2016/04/30/afnetworking-30-xiang-bi-zhi-qian-ban-ben-de-bian-hua/</guid>
-      <description>&lt;p&gt;新版的 AFNetworking 相比之前的版本废弃了如下三个类.&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;新版的 AFNetworking 相比之前的版本废弃了如下三个类.&lt;/p&gt;</description>
     </item>
     
     <item>

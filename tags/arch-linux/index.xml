@@ -17,9 +17,7 @@
       <pubDate>Sat, 10 Mar 2018 01:29:47 +0800</pubDate>
       
       <guid>https://mikulove.com/2018/03/10/fix-the-problem-named-is-apparently-in-use-by-the-system/</guid>
-      <description>&lt;p&gt;很多次,安装Arch Linux的时候,分区完成后,创建新的文件系统的时候,总是提示&lt;code&gt;/dev/sdax is apparently in use by the system; will not make a filesystem here!&lt;/code&gt;.谷歌了一番,总算解决了,记录下解决方案备忘.&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;很多次,安装Arch Linux的时候,分区完成后,创建新的文件系统的时候,总是提示&lt;code&gt;/dev/sdax is apparently in use by the system; will not make a filesystem here!&lt;/code&gt;.谷歌了一番,总算解决了,记录下解决方案备忘.&lt;/p&gt;</description>
     </item>
     
   </channel>

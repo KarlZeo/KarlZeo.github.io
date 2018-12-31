@@ -17,9 +17,7 @@
       <pubDate>Mon, 12 Mar 2018 06:14:58 +0800</pubDate>
       
       <guid>https://mikulove.com/2018/03/12/start-dhcpd-when-linux-system-startup/</guid>
-      <description>&lt;p&gt;最近在家里折腾老电脑,作为局域网内服务器,帮我提供优质的网络服务.记录一下,备忘.&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;最近在家里折腾老电脑,作为局域网内服务器,帮我提供优质的网络服务.记录一下,备忘.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -33,9 +31,7 @@
 &lt;ul&gt;
 &lt;li&gt;一台Linux服务器(以CentOS 7.4为例)&lt;/li&gt;
 &lt;li&gt;全程root操作&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+&lt;/ul&gt;</description>
     </item>
     
     <item>
@@ -50,9 +46,7 @@
 
 &lt;h2 id=&#34;下载镜像&#34;&gt;下载镜像&lt;/h2&gt;
 
-&lt;p&gt;准备一个完整的路由器镜像.刷入之前做md5校验.&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+&lt;p&gt;准备一个完整的路由器镜像.刷入之前做md5校验.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -64,9 +58,7 @@
       <description>&lt;p&gt;首先保留当前的连接不断开&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;/sbin/iptables -P INPUT ACCEPT
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+&lt;/code&gt;&lt;/pre&gt;</description>
     </item>
     
     <item>
@@ -77,9 +69,7 @@
       <guid>https://mikulove.com/2016/07/18/openwrt-zuo-si-ji-lu/</guid>
       <description>&lt;h2 id=&#34;1-什么是openwrt&#34;&gt;1. 什么是OpenWRT&lt;/h2&gt;
 
-&lt;p&gt;OpenWrt是适合于嵌入式设备的一个Linux发行版。相对原厂固件而言，OpenWrt不是一个单一、静态的固件，而是提供了一个可添加软件包的可写的文件系统。这使使用者可以自由的选择应用程序和配置，而不必受设备提供商的限制，并且可以使用一些适合某方面应用的软件包来定制你的设备。对于开发者来说，OpenWrt是一个框架，開發者不必麻烦的构建整个固件就能得到想要的应用程序；对于使用者来说，这意味着完全定制的能力，與以往不同的方式使用设备，OPKG包含超过3500个软件。 默认使用LuCI作为web交互界面。&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+&lt;p&gt;OpenWrt是适合于嵌入式设备的一个Linux发行版。相对原厂固件而言，OpenWrt不是一个单一、静态的固件，而是提供了一个可添加软件包的可写的文件系统。这使使用者可以自由的选择应用程序和配置，而不必受设备提供商的限制，并且可以使用一些适合某方面应用的软件包来定制你的设备。对于开发者来说，OpenWrt是一个框架，開發者不必麻烦的构建整个固件就能得到想要的应用程序；对于使用者来说，这意味着完全定制的能力，與以往不同的方式使用设备，OPKG包含超过3500个软件。 默认使用LuCI作为web交互界面。&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -90,9 +80,7 @@
       <guid>https://mikulove.com/2016/06/06/zai-linux-xi-tong-zhong-pei-zhi-java-huan-jing-bian-liang/</guid>
       <description>&lt;p&gt;在linux系统中配置Java环境变量的三种方法：&lt;/p&gt;
 
-&lt;p&gt;以 jdk-8u91-linux-x64.tar.gz 为例.&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+&lt;p&gt;以 jdk-8u91-linux-x64.tar.gz 为例.&lt;/p&gt;</description>
     </item>
     
   </channel>

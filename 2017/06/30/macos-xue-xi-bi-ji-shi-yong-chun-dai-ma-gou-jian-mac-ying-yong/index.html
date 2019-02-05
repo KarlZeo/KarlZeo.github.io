@@ -21,7 +21,7 @@
     
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="generator" content="Hugo 0.53 with theme Tranquilpeak 0.4.3-BETA">
+    <meta name="generator" content="Hugo 0.54.0 with theme Tranquilpeak 0.4.3-BETA">
     <title>macOS学习笔记--使用纯代码构建macOS应用</title>
     <meta name="author" content="Karl Zeo">
     <meta name="keywords" content="macOS, Swift">
@@ -277,11 +277,11 @@
 
 <p>首先,从项目的结构开始看起.(因为懒,并没有做MVC分层,只是完成了基本的实现)</p>
 
-<p><img src="https://lh3.googleusercontent.com/-uLw8ENEu_FA/WVZn2-YiV9I/AAAAAAAABW8/EisHrH2TuJA2sjcIjLmC6D9-0jwqhI4WACHMYCw/I/14988325462785.jpg" alt="" /></p>
+<p><img src="./../../../../images/14988325462785.jpg" alt="" /></p>
 
 <p>首先,最大的问题就是<code>main.swift</code>这个入口文件.默认的macOS工程是没有这个文件的.既然要用纯代码构建,那就把<code>info.plist</code>文件里面的指定Storyboard文件的部分删掉.这个跟iOS开发还是一模一样的.然后删掉<code>Main.storyboard</code>这个文件,反正没用了.删掉就是了.</p>
 
-<p><img src="https://lh3.googleusercontent.com/-6Do8KW-bE30/WVZn4_2wS_I/AAAAAAAABXA/8K-1bNDzHJMz1LolqEu9oxYgWLWXPpIgACHMYCw/I/14988327463717.jpg" alt="" /></p>
+<p><img src="./../../../../images/14988327463717.jpg" alt="" /></p>
 
 <p>然后,开始手写入口的main函数.在这里,你需要做两件事.第一,就是在实例化NSMenu对象.因为把storyboard删掉了,所以如果不实例化NSMenu的话,你得程序启动起来,左上角的菜单将空空如也.第二,就是手动实例化应用.因为是从头开始写,所以之前自动帮你生成的东西你也要自己写一遍(阿西巴,代码好多..当然了,快捷键也要自己绑定,这时候,你就可以随意开脑洞了,比如,⌘+Q改成新建&hellip;&hellip;代码如下:</p>
 
@@ -423,7 +423,7 @@ autoreleasepool {
 
 <p>最后,⌘+R运行一下,只要没有语法错误,这时候应用就已经启动了.然后你就会发现,WTF!!!写了这么多,就一个白板&hellip;..就是下面这个.</p>
 
-<p><img src="https://lh3.googleusercontent.com/-JCgFeO7jdPM/WVZn8_wsWNI/AAAAAAAABXQ/KHIjryYUYxktz88c87asPM14FcgE4sBRwCHMYCw/I/14988345216468.jpg" alt="" /></p>
+<p><img src="./../../../../images/14988345216468.jpg" alt="" /></p>
 
 <p>啥都没有,干净的像是白瓷砖&hellip;.所以说,没有什么特殊的需求,不要使用纯代码&hellip;.第一是累,第二嘛,就是麻烦.很多东西明明自动处理好了,但是还是要自己手写.比如上面的<code>NSMenu</code>.如果真的要使用代码的话,建议保留<code>NSMenu</code>相关的视图可视化部分.能省很多的功夫,少写很多不必要的代码.</p>
 
@@ -539,7 +539,7 @@ autoreleasepool {
         </article>
         <footer id="footer" class="main-content-wrap">
   <span class="copyrights">
-    &copy; 2018 <a href="https://github.com/karlzeo">Karl Zeo</a>. All Rights Reserved
+    &copy; 2019 <a href="https://github.com/karlzeo">Karl Zeo</a>. All Rights Reserved
   </span>
 </footer>
 

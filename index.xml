@@ -280,12 +280,13 @@ Yandere@萌</description>
       <description>&lt;ul&gt;
 &lt;li&gt;首先,打开xcode,找到工程的info.plist文件.&lt;/li&gt;
 &lt;li&gt;用源码的方式打开&lt;/li&gt;
-&lt;li&gt;最后一个key标签后面加入如下几行.&lt;/li&gt;
-&lt;/ul&gt;
+
+&lt;li&gt;&lt;p&gt;最后一个key标签后面加入如下几行.&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;&amp;lt;key&amp;gt;LSUIElement&amp;lt;/key&amp;gt;
 &amp;lt;true/&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;</description>
+&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
     </item>
     
     <item>

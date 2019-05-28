@@ -21,7 +21,7 @@
     
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="generator" content="Hugo 0.54.0 with theme Tranquilpeak 0.4.3-BETA">
+    <meta name="generator" content="Hugo 0.55.6 with theme Tranquilpeak 0.4.3-BETA">
     <title>在linux系统中配置java环境变量的三种方法</title>
     <meta name="author" content="Karl Zeo">
     <meta name="keywords" content="Linux, env">
@@ -278,15 +278,12 @@
 <p>如果是本机开发的话,推荐使用这种方法,因为所有的用户 shell 都可以使用这些环境变量.但是有可能会带来安全问题.</p>
 
 <ul>
-<li>用 vim 打开/etc/profile</li>
-</ul>
+<li><p>用 vim 打开/etc/profile</p>
 
 <pre><code>vim /etc/profile
-</code></pre>
+</code></pre></li>
 
-<ul>
-<li>加入如下内容</li>
-</ul>
+<li><p>加入如下内容</p>
 
 <pre><code>JAVA_HOME=/usr/loacl/bin/jdk1.8.0_91
 PATH=$JAVA_HOME/bin:$PATH
@@ -294,10 +291,9 @@ CLASSPATH=.:$JAVA_HOME/lib/dt.jar:$JAVA_HOME/lib/tools.jar
 export JAVA_HOME
 export PATH
 export CLASSPATH
-</code></pre>
+</code></pre></li>
 
-<ul>
-<li>重新登录</li>
+<li><p>重新登录</p></li>
 </ul>
 
 <h3 id="2-修改当前用户-shell-配置文件">2.修改当前用户 shell 配置文件</h3>
@@ -305,15 +301,12 @@ export CLASSPATH
 <p>这种方案比较安全,可以将环境变量权限控制到用户.以 zsh 为例</p>
 
 <ul>
-<li>用 vim 打开 .zshrc 文件</li>
-</ul>
+<li><p>用 vim 打开 .zshrc 文件</p>
 
 <pre><code>vim .zshrc
-</code></pre>
+</code></pre></li>
 
-<ul>
-<li>在 .zshrc 文件中加入如下代码</li>
-</ul>
+<li><p>在 .zshrc 文件中加入如下代码</p>
 
 <pre><code>set JAVA_HOME=/usr/loacl/bin/jdk1.8.0_91
 export JAVA_HOME
@@ -321,14 +314,13 @@ set PATH=$JAVA_HOME/bin:$PATH
 export PATH
 set CLASSPATH=.:$JAVA_HOME/lib/dt.jar:$JAVA_HOME/lib/tools.jar
 export CLASSPATH
-</code></pre>
+</code></pre></li>
 
-<ul>
-<li>重新载入配置文件</li>
-</ul>
+<li><p>重新载入配置文件</p>
 
 <pre><code>source .zshrc
-</code></pre>
+</code></pre></li>
+</ul>
 
 <h3 id="3-直接在shell下设置变量">3.直接在shell下设置变量</h3>
 
@@ -409,12 +401,6 @@ export CLASSPATH=.:$JAVA_HOME/lib/dt.jar:$JAVA_HOME/lib/tools.jar
         
       
       
-        <li class="post-action">
-          <a class="post-action-btn btn btn--default" href="#disqus_thread">
-            <i class="fa fa-comment-o"></i>
-          </a>
-        </li>
-      
       <li class="post-action">
         
           <a class="post-action-btn btn btn--default" href="#">
@@ -427,10 +413,6 @@ export CLASSPATH=.:$JAVA_HOME/lib/dt.jar:$JAVA_HOME/lib/tools.jar
 
 
             
-              
-                <div id="disqus_thread">
-  <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-</div>
               
             
           </div>
@@ -494,12 +476,6 @@ export CLASSPATH=.:$JAVA_HOME/lib/dt.jar:$JAVA_HOME/lib/tools.jar
           </li>
         
       
-      
-        <li class="post-action">
-          <a class="post-action-btn btn btn--default" href="#disqus_thread">
-            <i class="fa fa-comment-o"></i>
-          </a>
-        </li>
       
       <li class="post-action">
         
@@ -803,28 +779,6 @@ seems not work well.</p></div>
 
 
   
-    
-      <script>
-        var disqus_config = function () {
-          this.page.url = 'https:\/\/mikulove.com\/2016\/06\/06\/zai-linux-xi-tong-zhong-pei-zhi-java-huan-jing-bian-liang\/';
-          
-            this.page.identifier = '\/2016\/06\/06\/zai-linux-xi-tong-zhong-pei-zhi-java-huan-jing-bian-liang\/'
-          
-        };
-        (function() {
-          
-          
-          if (window.location.hostname == "localhost") {
-            return;
-          }
-          var d = document, s = d.createElement('script');
-          var disqus_shortname = 'karlzeo';
-          s.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-
-          s.setAttribute('data-timestamp', +new Date());
-          (d.head || d.body).appendChild(s);
-        })();
-      </script>
     
   
 

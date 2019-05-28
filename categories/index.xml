@@ -6,16 +6,107 @@
     <description>Recent content in Categories on 蓝白胖次</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <lastBuildDate>Tue, 17 Jul 2018 12:52:38 +0800</lastBuildDate>
     
 	<atom:link href="https://mikulove.com/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Categories</title>
+      <title>iOS</title>
+      <link>https://mikulove.com/categories/ios/</link>
+      <pubDate>Tue, 17 Jul 2018 12:52:38 +0800</pubDate>
+      
+      <guid>https://mikulove.com/categories/ios/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>macOS</title>
+      <link>https://mikulove.com/categories/macos/</link>
+      <pubDate>Tue, 17 Jul 2018 12:52:38 +0800</pubDate>
+      
+      <guid>https://mikulove.com/categories/macos/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ruby</title>
+      <link>https://mikulove.com/categories/ruby/</link>
+      <pubDate>Sun, 27 May 2018 03:04:27 +0800</pubDate>
+      
+      <guid>https://mikulove.com/categories/ruby/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Vim</title>
+      <link>https://mikulove.com/categories/vim/</link>
+      <pubDate>Thu, 17 May 2018 17:25:11 +0800</pubDate>
+      
+      <guid>https://mikulove.com/categories/vim/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Linux</title>
+      <link>https://mikulove.com/categories/linux/</link>
+      <pubDate>Mon, 12 Mar 2018 06:14:58 +0800</pubDate>
+      
+      <guid>https://mikulove.com/categories/linux/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>LEDE</title>
+      <link>https://mikulove.com/categories/lede/</link>
+      <pubDate>Thu, 01 Mar 2018 21:58:59 +0800</pubDate>
+      
+      <guid>https://mikulove.com/categories/lede/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>PPPOE</title>
+      <link>https://mikulove.com/categories/pppoe/</link>
+      <pubDate>Thu, 01 Mar 2018 21:58:59 +0800</pubDate>
+      
+      <guid>https://mikulove.com/categories/pppoe/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>nodebb</title>
+      <link>https://mikulove.com/categories/nodebb/</link>
+      <pubDate>Fri, 23 Feb 2018 23:36:14 +0800</pubDate>
+      
+      <guid>https://mikulove.com/categories/nodebb/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>nodejs</title>
+      <link>https://mikulove.com/categories/nodejs/</link>
+      <pubDate>Fri, 23 Feb 2018 23:36:14 +0800</pubDate>
+      
+      <guid>https://mikulove.com/categories/nodejs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>categories</title>
       <link>https://mikulove.com/categories/categories/</link>
       <pubDate>Tue, 23 Jan 2018 22:43:27 +0800</pubDate>
       
       <guid>https://mikulove.com/categories/categories/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>OpenWRT / LEDE</title>
+      <link>https://mikulove.com/categories/openwrt-/-lede/</link>
+      <pubDate>Sun, 17 Dec 2017 22:24:05 +0800</pubDate>
+      
+      <guid>https://mikulove.com/categories/openwrt-/-lede/</guid>
       <description></description>
     </item>
     
@@ -38,25 +129,16 @@
     </item>
     
     <item>
-      <title>Input</title>
-      <link>https://mikulove.com/categories/input/</link>
-      <pubDate>Wed, 22 Mar 2017 00:11:24 +0000</pubDate>
+      <title>Swift</title>
+      <link>https://mikulove.com/categories/swift/</link>
+      <pubDate>Fri, 30 Jun 2017 23:03:38 +0000</pubDate>
       
-      <guid>https://mikulove.com/categories/input/</guid>
+      <guid>https://mikulove.com/categories/swift/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Ios</title>
-      <link>https://mikulove.com/categories/ios/</link>
-      <pubDate>Tue, 17 Jul 2018 12:52:38 +0800</pubDate>
-      
-      <guid>https://mikulove.com/categories/ios/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Iptables</title>
+      <title>iptables</title>
       <link>https://mikulove.com/categories/iptables/</link>
       <pubDate>Mon, 22 May 2017 06:37:32 +0000</pubDate>
       
@@ -65,11 +147,38 @@
     </item>
     
     <item>
-      <title>Jailbreaking</title>
+      <title>input</title>
+      <link>https://mikulove.com/categories/input/</link>
+      <pubDate>Wed, 22 Mar 2017 00:11:24 +0000</pubDate>
+      
+      <guid>https://mikulove.com/categories/input/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>jailbreaking</title>
       <link>https://mikulove.com/categories/jailbreaking/</link>
       <pubDate>Thu, 16 Mar 2017 13:23:14 +0000</pubDate>
       
       <guid>https://mikulove.com/categories/jailbreaking/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>PHP</title>
+      <link>https://mikulove.com/categories/php/</link>
+      <pubDate>Tue, 26 Jul 2016 13:23:51 +0000</pubDate>
+      
+      <guid>https://mikulove.com/categories/php/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>MySQL</title>
+      <link>https://mikulove.com/categories/mysql/</link>
+      <pubDate>Tue, 26 Jul 2016 13:23:30 +0000</pubDate>
+      
+      <guid>https://mikulove.com/categories/mysql/</guid>
       <description></description>
     </item>
     
@@ -83,119 +192,11 @@
     </item>
     
     <item>
-      <title>Lede</title>
-      <link>https://mikulove.com/categories/lede/</link>
-      <pubDate>Thu, 01 Mar 2018 21:58:59 +0800</pubDate>
-      
-      <guid>https://mikulove.com/categories/lede/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Linux</title>
-      <link>https://mikulove.com/categories/linux/</link>
-      <pubDate>Mon, 12 Mar 2018 06:14:58 +0800</pubDate>
-      
-      <guid>https://mikulove.com/categories/linux/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Macos</title>
-      <link>https://mikulove.com/categories/macos/</link>
-      <pubDate>Tue, 17 Jul 2018 12:52:38 +0800</pubDate>
-      
-      <guid>https://mikulove.com/categories/macos/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Mysql</title>
-      <link>https://mikulove.com/categories/mysql/</link>
-      <pubDate>Tue, 26 Jul 2016 13:23:30 +0000</pubDate>
-      
-      <guid>https://mikulove.com/categories/mysql/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Nodebb</title>
-      <link>https://mikulove.com/categories/nodebb/</link>
-      <pubDate>Fri, 23 Feb 2018 23:36:14 +0800</pubDate>
-      
-      <guid>https://mikulove.com/categories/nodebb/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Nodejs</title>
-      <link>https://mikulove.com/categories/nodejs/</link>
-      <pubDate>Fri, 23 Feb 2018 23:36:14 +0800</pubDate>
-      
-      <guid>https://mikulove.com/categories/nodejs/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Objective C</title>
+      <title>Objective-C</title>
       <link>https://mikulove.com/categories/objective-c/</link>
       <pubDate>Sat, 30 Apr 2016 13:23:26 +0000</pubDate>
       
       <guid>https://mikulove.com/categories/objective-c/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Openwrt / Lede</title>
-      <link>https://mikulove.com/categories/openwrt-/-lede/</link>
-      <pubDate>Sun, 17 Dec 2017 22:24:05 +0800</pubDate>
-      
-      <guid>https://mikulove.com/categories/openwrt-/-lede/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Php</title>
-      <link>https://mikulove.com/categories/php/</link>
-      <pubDate>Tue, 26 Jul 2016 13:23:51 +0000</pubDate>
-      
-      <guid>https://mikulove.com/categories/php/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Pppoe</title>
-      <link>https://mikulove.com/categories/pppoe/</link>
-      <pubDate>Thu, 01 Mar 2018 21:58:59 +0800</pubDate>
-      
-      <guid>https://mikulove.com/categories/pppoe/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Ruby</title>
-      <link>https://mikulove.com/categories/ruby/</link>
-      <pubDate>Sun, 27 May 2018 03:04:27 +0800</pubDate>
-      
-      <guid>https://mikulove.com/categories/ruby/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Swift</title>
-      <link>https://mikulove.com/categories/swift/</link>
-      <pubDate>Fri, 30 Jun 2017 23:03:38 +0000</pubDate>
-      
-      <guid>https://mikulove.com/categories/swift/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Vim</title>
-      <link>https://mikulove.com/categories/vim/</link>
-      <pubDate>Thu, 17 May 2018 17:25:11 +0800</pubDate>
-      
-      <guid>https://mikulove.com/categories/vim/</guid>
       <description></description>
     </item>
     

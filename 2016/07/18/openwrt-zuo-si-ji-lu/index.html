@@ -1,71 +1,92 @@
-
-
-  
-    
-  
-
-
-  
-
-
-
-
-  
-
-
-  
-
 <!DOCTYPE html>
 <html lang="en-us">
   <head>
     
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="generator" content="Hugo 0.55.6 with theme Tranquilpeak 0.4.3-BETA">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="generator" content="Hugo 0.55.6 with theme Tranquilpeak 0.4.3-SNAPSHOT">
+<meta name="author" content="Karl Zeo">
+<meta name="keywords" content="OpenWRT, Linux">
+<meta name="description" content="1. 什么是OpenWRT
+
+OpenWrt是适合于嵌入式设备的一个Linux发行版。相对原厂固件而言，OpenWrt不是一个单一、静态的固件，而是提供了一个可添加软件包的可写的文件系统。这使使用者可以自由的选择应用程序和配置，而不必受设备提供商的限制，并且可以使用一些适合某方面应用的软件包来定制你的设备。对于开发者来说，OpenWrt是一个框架，開發者不必麻烦的构建整个固件就能得到想要的应用程序；对于使用者来说，这意味着完全定制的能力，與以往不同的方式使用设备，OPKG包含超过3500个软件。 默认使用LuCI作为web交互界面。">
+
+
+<meta property="og:description" content="1. 什么是OpenWRT
+
+OpenWrt是适合于嵌入式设备的一个Linux发行版。相对原厂固件而言，OpenWrt不是一个单一、静态的固件，而是提供了一个可添加软件包的可写的文件系统。这使使用者可以自由的选择应用程序和配置，而不必受设备提供商的限制，并且可以使用一些适合某方面应用的软件包来定制你的设备。对于开发者来说，OpenWrt是一个框架，開發者不必麻烦的构建整个固件就能得到想要的应用程序；对于使用者来说，这意味着完全定制的能力，與以往不同的方式使用设备，OPKG包含超过3500个软件。 默认使用LuCI作为web交互界面。">
+<meta property="og:type" content="article">
+<meta property="og:title" content="OpenWRT 作死记录">
+<meta name="twitter:title" content="OpenWRT 作死记录">
+<meta property="og:url" content="https://mikulove.com/2016/07/18/openwrt-zuo-si-ji-lu/">
+<meta property="twitter:url" content="https://mikulove.com/2016/07/18/openwrt-zuo-si-ji-lu/">
+<meta property="og:site_name" content="蓝白胖次">
+<meta property="og:description" content="1. 什么是OpenWRT
+
+OpenWrt是适合于嵌入式设备的一个Linux发行版。相对原厂固件而言，OpenWrt不是一个单一、静态的固件，而是提供了一个可添加软件包的可写的文件系统。这使使用者可以自由的选择应用程序和配置，而不必受设备提供商的限制，并且可以使用一些适合某方面应用的软件包来定制你的设备。对于开发者来说，OpenWrt是一个框架，開發者不必麻烦的构建整个固件就能得到想要的应用程序；对于使用者来说，这意味着完全定制的能力，與以往不同的方式使用设备，OPKG包含超过3500个软件。 默认使用LuCI作为web交互界面。">
+<meta name="twitter:description" content="1. 什么是OpenWRT
+
+OpenWrt是适合于嵌入式设备的一个Linux发行版。相对原厂固件而言，OpenWrt不是一个单一、静态的固件，而是提供了一个可添加软件包的可写的文件系统。这使使用者可以自由的选择应用程序和配置，而不必受设备提供商的限制，并且可以使用一些适合某方面应用的软件包来定制你的设备。对于开发者来说，OpenWrt是一个框架，開發者不必麻烦的构建整个固件就能得到想要的应用程序；对于使用者来说，这意味着完全定制的能力，與以往不同的方式使用设备，OPKG包含超过3500个软件。 默认使用LuCI作为web交互界面。">
+<meta property="og:locale" content="en-us">
+
+  
+    <meta property="article:published_time" content="2016-07-18T13:23:55">
+  
+  
+    <meta property="article:modified_time" content="2016-07-18T13:23:55">
+  
+  
+  
+    
+      <meta property="article:section" content="Linux">
+    
+      <meta property="article:section" content="OpenWRT / LEDE">
+    
+  
+  
+    
+      <meta property="article:tag" content="Linux">
+    
+      <meta property="article:tag" content="OpenWRT / LEDE">
+    
+  
+
+
+<meta name="twitter:card" content="summary">
+
+  <meta name="twitter:site" content="@karlzeo">
+
+
+  <meta name="twitter:creator" content="@karlzeo">
+
+
+
+
+
+
+  <meta property="og:image" content="https://initiate.alphacoders.com/download/cover/65544/png/122263928997024">
+  <meta property="twitter:image" content="https://initiate.alphacoders.com/download/cover/65544/png/122263928997024">
+
+
+  <meta property="og:image" content="https://images5.alphacoders.com/782/782977.png">
+  <meta property="twitter:image" content="https://images5.alphacoders.com/782/782977.png">
+
+
+
+
+  <meta property="og:image" content="https://www.gravatar.com/avatar/a7ee5edbac4bb434a62fb744ea0d818d?s=640">
+  <meta property="twitter:image" content="https://www.gravatar.com/avatar/a7ee5edbac4bb434a62fb744ea0d818d?s=640">
+
+
     <title>OpenWRT 作死记录</title>
-    <meta name="author" content="Karl Zeo">
-    <meta name="keywords" content="OpenWRT, Linux">
 
     <link rel="icon" href="https://pbs.twimg.com/profile_images/879115090133262336/ZPOgwMdI_400x400.jpg">
     
 
     
-    <meta name="description" content="1. 什么是OpenWRT
 
-OpenWrt是适合于嵌入式设备的一个Linux发行版。相对原厂固件而言，OpenWrt不是一个单一、静态的固件，而是提供了一个可添加软件包的可写的文件系统。这使使用者可以自由的选择应用程序和配置，而不必受设备提供商的限制，并且可以使用一些适合某方面应用的软件包来定制你的设备。对于开发者来说，OpenWrt是一个框架，開發者不必麻烦的构建整个固件就能得到想要的应用程序；对于使用者来说，这意味着完全定制的能力，與以往不同的方式使用设备，OPKG包含超过3500个软件。 默认使用LuCI作为web交互界面。">
-    <meta property="og:description" content="1. 什么是OpenWRT
-
-OpenWrt是适合于嵌入式设备的一个Linux发行版。相对原厂固件而言，OpenWrt不是一个单一、静态的固件，而是提供了一个可添加软件包的可写的文件系统。这使使用者可以自由的选择应用程序和配置，而不必受设备提供商的限制，并且可以使用一些适合某方面应用的软件包来定制你的设备。对于开发者来说，OpenWrt是一个框架，開發者不必麻烦的构建整个固件就能得到想要的应用程序；对于使用者来说，这意味着完全定制的能力，與以往不同的方式使用设备，OPKG包含超过3500个软件。 默认使用LuCI作为web交互界面。">
-    <meta property="og:type" content="blog">
-    <meta property="og:title" content="OpenWRT 作死记录">
-    <meta property="og:url" content="/2016/07/18/openwrt-zuo-si-ji-lu/">
-    <meta property="og:site_name" content="蓝白胖次">
-    <meta name="twitter:card" content="summary">
-    <meta name="twitter:title" content="蓝白胖次">
-    <meta name="twitter:description" content="1. 什么是OpenWRT
-
-OpenWrt是适合于嵌入式设备的一个Linux发行版。相对原厂固件而言，OpenWrt不是一个单一、静态的固件，而是提供了一个可添加软件包的可写的文件系统。这使使用者可以自由的选择应用程序和配置，而不必受设备提供商的限制，并且可以使用一些适合某方面应用的软件包来定制你的设备。对于开发者来说，OpenWrt是一个框架，開發者不必麻烦的构建整个固件就能得到想要的应用程序；对于使用者来说，这意味着完全定制的能力，與以往不同的方式使用设备，OPKG包含超过3500个软件。 默认使用LuCI作为web交互界面。">
-    
-      <meta name="twitter:creator" content="@karlzeo">
-    
-    
-
-    
-    
-
-    
-      <meta property="og:image" content="//www.gravatar.com/avatar/a7ee5edbac4bb434a62fb744ea0d818d?s=640">
-    
-
-    
-      <meta property="og:image" content="https://initiate.alphacoders.com/download/cover/65544/png/122263928997024">
-    
-    
-      <meta property="og:image" content="https://images5.alphacoders.com/782/782977.png">
-    
-    
-
-    
+    <link rel="canonical" href="https://mikulove.com/2016/07/18/openwrt-zuo-si-ji-lu/">
 
     
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha256-eZrrJcwDc/3uDhsdt61sL2oOBY362qM3lon1gyExkL0=" crossorigin="anonymous" />
@@ -73,7 +94,7 @@ OpenWrt是适合于嵌入式设备的一个Linux发行版。相对原厂固件�
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.4/helpers/jquery.fancybox-thumbs.min.css" integrity="sha256-SEa4XYAHihTcEP1f5gARTB2K26Uk8PsndQYHQC1f4jU=" crossorigin="anonymous" />
     
     
-    <link rel="stylesheet" href="https://mikulove.com/css/style-jsjn0006wyhpyzivf6yceb31gvpjatbcs3qzjvlumobfnugccvobqwxnnaj8.min.css" />
+    <link rel="stylesheet" href="https://mikulove.com/css/style-nnm2spxvve8onlujjlegkkytaehyadd4ksxc1hyzzq9a2wvtrgbljqyulomn.min.css" />
     
     
 
@@ -98,7 +119,7 @@ OpenWrt是适合于嵌入式设备的一个Linux发行版。相对原厂固件�
     
     
       
-        <img class="header-picture" src="//www.gravatar.com/avatar/a7ee5edbac4bb434a62fb744ea0d818d?s=90" alt="Author&#39;s picture" />
+        <img class="header-picture" src="https://www.gravatar.com/avatar/a7ee5edbac4bb434a62fb744ea0d818d?s=90" alt="Author&#39;s picture" />
       
     
     </a>
@@ -110,7 +131,7 @@ OpenWrt是适合于嵌入式设备的一个Linux发行版。相对原厂固件�
     
       <div class="sidebar-profile">
         <a href="https://mikulove.com/#about">
-          <img class="sidebar-profile-picture" src="//www.gravatar.com/avatar/a7ee5edbac4bb434a62fb744ea0d818d?s=110" alt="Author&#39;s picture" />
+          <img class="sidebar-profile-picture" src="https://www.gravatar.com/avatar/a7ee5edbac4bb434a62fb744ea0d818d?s=110" alt="Author&#39;s picture" />
         </a>
         <h4 class="sidebar-profile-name">Karl Zeo</h4>
         
@@ -399,8 +420,8 @@ src/gz chaos_calmer_management http://openwrt.mirrors.ustc.edu.cn/chaos_calmer/1
                 
               
             
-            
-  <div class="post-actions-wrap">
+            <div class="post-actions-wrap">
+  
       <nav >
         <ul class="post-actions post-action-nav">
           
@@ -459,8 +480,8 @@ src/gz chaos_calmer_management http://openwrt.mirrors.ustc.edu.cn/chaos_calmer/1
         </a>
       </li>
     </ul>
-  </div>
-
+  
+</div>
 
             
               
@@ -475,8 +496,8 @@ src/gz chaos_calmer_management http://openwrt.mirrors.ustc.edu.cn/chaos_calmer/1
 
       </div>
       <div id="bottom-bar" class="post-bottom-bar" data-behavior="4">
-        
-  <div class="post-actions-wrap">
+        <div class="post-actions-wrap">
+  
       <nav >
         <ul class="post-actions post-action-nav">
           
@@ -535,8 +556,8 @@ src/gz chaos_calmer_management http://openwrt.mirrors.ustc.edu.cn/chaos_calmer/1
         </a>
       </li>
     </ul>
-  </div>
-
+  
+</div>
 
       </div>
       <div id="share-options-bar" class="share-options-bar" data-behavior="4">
@@ -572,7 +593,7 @@ src/gz chaos_calmer_management http://openwrt.mirrors.ustc.edu.cn/chaos_calmer/1
       <i class="fa fa-remove"></i>
     </div>
     
-      <img id="about-card-picture" src="//www.gravatar.com/avatar/a7ee5edbac4bb434a62fb744ea0d818d?s=110" alt="Author&#39;s picture" />
+      <img id="about-card-picture" src="https://www.gravatar.com/avatar/a7ee5edbac4bb434a62fb744ea0d818d?s=110" alt="Author&#39;s picture" />
     
     <h4 id="about-card-name">Karl Zeo</h4>
     
@@ -826,11 +847,26 @@ seems not work well.</p></div>
 <script src="https://mikulove.com/js/script-qi9wbxp2ya2j6p7wx1i6tgavftewndznf4v0hy2gvivk1rxgc3lm7njqb6bz.min.js"></script>
 
 
+<script lang="javascript">
+window.onload = updateMinWidth;
+window.onresize = updateMinWidth;
+document.getElementById("sidebar").addEventListener("transitionend", updateMinWidth);
+function updateMinWidth() {
+  var sidebar = document.getElementById("sidebar");
+  var main = document.getElementById("main");
+  main.style.minWidth = "";
+  var w1 = getComputedStyle(main).getPropertyValue("min-width");
+  var w2 = getComputedStyle(sidebar).getPropertyValue("width");
+  var w3 = getComputedStyle(sidebar).getPropertyValue("left");
+  main.style.minWidth = `calc(${w1} - ${w2} - ${w3})`;
+}
+</script>
 
 
   
     
   
+
 
 
 

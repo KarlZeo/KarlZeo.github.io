@@ -1,71 +1,92 @@
-
-
-  
-    
-  
-
-
-  
-
-
-
-
-  
-
-
-  
-
 <!DOCTYPE html>
 <html lang="en-us">
   <head>
     
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="generator" content="Hugo 0.55.6 with theme Tranquilpeak 0.4.3-BETA">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="generator" content="Hugo 0.55.6 with theme Tranquilpeak 0.4.3-SNAPSHOT">
+<meta name="author" content="Karl Zeo">
+<meta name="keywords" content="Linux, env">
+<meta name="description" content="在linux系统中配置Java环境变量的三种方法：
+
+以 jdk-8u91-linux-x64.tar.gz 为例.">
+
+
+<meta property="og:description" content="在linux系统中配置Java环境变量的三种方法：
+
+以 jdk-8u91-linux-x64.tar.gz 为例.">
+<meta property="og:type" content="article">
+<meta property="og:title" content="在linux系统中配置java环境变量的三种方法">
+<meta name="twitter:title" content="在linux系统中配置java环境变量的三种方法">
+<meta property="og:url" content="https://mikulove.com/2016/06/06/zai-linux-xi-tong-zhong-pei-zhi-java-huan-jing-bian-liang/">
+<meta property="twitter:url" content="https://mikulove.com/2016/06/06/zai-linux-xi-tong-zhong-pei-zhi-java-huan-jing-bian-liang/">
+<meta property="og:site_name" content="蓝白胖次">
+<meta property="og:description" content="在linux系统中配置Java环境变量的三种方法：
+
+以 jdk-8u91-linux-x64.tar.gz 为例.">
+<meta name="twitter:description" content="在linux系统中配置Java环境变量的三种方法：
+
+以 jdk-8u91-linux-x64.tar.gz 为例.">
+<meta property="og:locale" content="en-us">
+
+  
+    <meta property="article:published_time" content="2016-06-06T13:23:12">
+  
+  
+    <meta property="article:modified_time" content="2016-06-06T13:23:12">
+  
+  
+  
+    
+      <meta property="article:section" content="Linux">
+    
+      <meta property="article:section" content="Java">
+    
+  
+  
+    
+      <meta property="article:tag" content="Linux">
+    
+      <meta property="article:tag" content="env">
+    
+  
+
+
+<meta name="twitter:card" content="summary">
+
+  <meta name="twitter:site" content="@karlzeo">
+
+
+  <meta name="twitter:creator" content="@karlzeo">
+
+
+
+
+
+
+  <meta property="og:image" content="https://initiate.alphacoders.com/download/cover/65544/png/122263928997024">
+  <meta property="twitter:image" content="https://initiate.alphacoders.com/download/cover/65544/png/122263928997024">
+
+
+  <meta property="og:image" content="https://images5.alphacoders.com/782/782977.png">
+  <meta property="twitter:image" content="https://images5.alphacoders.com/782/782977.png">
+
+
+
+
+  <meta property="og:image" content="https://www.gravatar.com/avatar/a7ee5edbac4bb434a62fb744ea0d818d?s=640">
+  <meta property="twitter:image" content="https://www.gravatar.com/avatar/a7ee5edbac4bb434a62fb744ea0d818d?s=640">
+
+
     <title>在linux系统中配置java环境变量的三种方法</title>
-    <meta name="author" content="Karl Zeo">
-    <meta name="keywords" content="Linux, env">
 
     <link rel="icon" href="https://pbs.twimg.com/profile_images/879115090133262336/ZPOgwMdI_400x400.jpg">
     
 
     
-    <meta name="description" content="在linux系统中配置Java环境变量的三种方法：
 
-以 jdk-8u91-linux-x64.tar.gz 为例.">
-    <meta property="og:description" content="在linux系统中配置Java环境变量的三种方法：
-
-以 jdk-8u91-linux-x64.tar.gz 为例.">
-    <meta property="og:type" content="blog">
-    <meta property="og:title" content="在linux系统中配置java环境变量的三种方法">
-    <meta property="og:url" content="/2016/06/06/zai-linux-xi-tong-zhong-pei-zhi-java-huan-jing-bian-liang/">
-    <meta property="og:site_name" content="蓝白胖次">
-    <meta name="twitter:card" content="summary">
-    <meta name="twitter:title" content="蓝白胖次">
-    <meta name="twitter:description" content="在linux系统中配置Java环境变量的三种方法：
-
-以 jdk-8u91-linux-x64.tar.gz 为例.">
-    
-      <meta name="twitter:creator" content="@karlzeo">
-    
-    
-
-    
-    
-
-    
-      <meta property="og:image" content="//www.gravatar.com/avatar/a7ee5edbac4bb434a62fb744ea0d818d?s=640">
-    
-
-    
-      <meta property="og:image" content="https://initiate.alphacoders.com/download/cover/65544/png/122263928997024">
-    
-    
-      <meta property="og:image" content="https://images5.alphacoders.com/782/782977.png">
-    
-    
-
-    
+    <link rel="canonical" href="https://mikulove.com/2016/06/06/zai-linux-xi-tong-zhong-pei-zhi-java-huan-jing-bian-liang/">
 
     
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha256-eZrrJcwDc/3uDhsdt61sL2oOBY362qM3lon1gyExkL0=" crossorigin="anonymous" />
@@ -73,7 +94,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.4/helpers/jquery.fancybox-thumbs.min.css" integrity="sha256-SEa4XYAHihTcEP1f5gARTB2K26Uk8PsndQYHQC1f4jU=" crossorigin="anonymous" />
     
     
-    <link rel="stylesheet" href="https://mikulove.com/css/style-jsjn0006wyhpyzivf6yceb31gvpjatbcs3qzjvlumobfnugccvobqwxnnaj8.min.css" />
+    <link rel="stylesheet" href="https://mikulove.com/css/style-nnm2spxvve8onlujjlegkkytaehyadd4ksxc1hyzzq9a2wvtrgbljqyulomn.min.css" />
     
     
 
@@ -98,7 +119,7 @@
     
     
       
-        <img class="header-picture" src="//www.gravatar.com/avatar/a7ee5edbac4bb434a62fb744ea0d818d?s=90" alt="Author&#39;s picture" />
+        <img class="header-picture" src="https://www.gravatar.com/avatar/a7ee5edbac4bb434a62fb744ea0d818d?s=90" alt="Author&#39;s picture" />
       
     
     </a>
@@ -110,7 +131,7 @@
     
       <div class="sidebar-profile">
         <a href="https://mikulove.com/#about">
-          <img class="sidebar-profile-picture" src="//www.gravatar.com/avatar/a7ee5edbac4bb434a62fb744ea0d818d?s=110" alt="Author&#39;s picture" />
+          <img class="sidebar-profile-picture" src="https://www.gravatar.com/avatar/a7ee5edbac4bb434a62fb744ea0d818d?s=110" alt="Author&#39;s picture" />
         </a>
         <h4 class="sidebar-profile-name">Karl Zeo</h4>
         
@@ -349,8 +370,8 @@ export CLASSPATH=.:$JAVA_HOME/lib/dt.jar:$JAVA_HOME/lib/tools.jar
                 
               
             
-            
-  <div class="post-actions-wrap">
+            <div class="post-actions-wrap">
+  
       <nav >
         <ul class="post-actions post-action-nav">
           
@@ -409,8 +430,8 @@ export CLASSPATH=.:$JAVA_HOME/lib/dt.jar:$JAVA_HOME/lib/tools.jar
         </a>
       </li>
     </ul>
-  </div>
-
+  
+</div>
 
             
               
@@ -425,8 +446,8 @@ export CLASSPATH=.:$JAVA_HOME/lib/dt.jar:$JAVA_HOME/lib/tools.jar
 
       </div>
       <div id="bottom-bar" class="post-bottom-bar" data-behavior="4">
-        
-  <div class="post-actions-wrap">
+        <div class="post-actions-wrap">
+  
       <nav >
         <ul class="post-actions post-action-nav">
           
@@ -485,8 +506,8 @@ export CLASSPATH=.:$JAVA_HOME/lib/dt.jar:$JAVA_HOME/lib/tools.jar
         </a>
       </li>
     </ul>
-  </div>
-
+  
+</div>
 
       </div>
       <div id="share-options-bar" class="share-options-bar" data-behavior="4">
@@ -522,7 +543,7 @@ export CLASSPATH=.:$JAVA_HOME/lib/dt.jar:$JAVA_HOME/lib/tools.jar
       <i class="fa fa-remove"></i>
     </div>
     
-      <img id="about-card-picture" src="//www.gravatar.com/avatar/a7ee5edbac4bb434a62fb744ea0d818d?s=110" alt="Author&#39;s picture" />
+      <img id="about-card-picture" src="https://www.gravatar.com/avatar/a7ee5edbac4bb434a62fb744ea0d818d?s=110" alt="Author&#39;s picture" />
     
     <h4 id="about-card-name">Karl Zeo</h4>
     
@@ -776,11 +797,26 @@ seems not work well.</p></div>
 <script src="https://mikulove.com/js/script-qi9wbxp2ya2j6p7wx1i6tgavftewndznf4v0hy2gvivk1rxgc3lm7njqb6bz.min.js"></script>
 
 
+<script lang="javascript">
+window.onload = updateMinWidth;
+window.onresize = updateMinWidth;
+document.getElementById("sidebar").addEventListener("transitionend", updateMinWidth);
+function updateMinWidth() {
+  var sidebar = document.getElementById("sidebar");
+  var main = document.getElementById("main");
+  main.style.minWidth = "";
+  var w1 = getComputedStyle(main).getPropertyValue("min-width");
+  var w2 = getComputedStyle(sidebar).getPropertyValue("width");
+  var w3 = getComputedStyle(sidebar).getPropertyValue("left");
+  main.style.minWidth = `calc(${w1} - ${w2} - ${w3})`;
+}
+</script>
 
 
   
     
   
+
 
 
 

@@ -1,294 +1,134 @@
 <!DOCTYPE html>
-<html lang="en-us">
-  <head>
+<html lang="en-US" />
+<head>
+    <meta http-equiv="Content-Type" content="text/html" charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+
+    <title>编译鼠须管的坑 &middot; </title>
+
+    <meta name="HandheldFriendly" content="True" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="shortcut icon" href="https://mikulove.com/favicon.ico" />
+    <link rel="canonical" href="https://mikulove.com/2017/03/22/bian-yi-shu-xu-guan-de-keng/" />
+
+     <meta name="description" content="&lt;h2 id=&#34;前言&#34;&gt;前言&lt;/h2&gt;
+
+&lt;p&gt;最近编译Squirrel,各种Error,查了下GitHub的工单,发现是 &lt;code&gt;snappy&lt;/code&gt; 导致的.&lt;/p&gt;" /> 
+
+     
     
-    <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="generator" content="Hugo 0.55.6 with theme Tranquilpeak 0.4.3-SNAPSHOT">
-<meta name="author" content="Karl Zeo">
-<meta name="keywords" content="macOS">
-<meta name="description" content="前言
-
-最近编译Squirrel,各种Error,查了下GitHub的工单,发现是 snappy 导致的.">
-
-
-<meta property="og:description" content="前言
-
-最近编译Squirrel,各种Error,查了下GitHub的工单,发现是 snappy 导致的.">
-<meta property="og:type" content="article">
-<meta property="og:title" content="编译鼠须管的坑">
-<meta name="twitter:title" content="编译鼠须管的坑">
-<meta property="og:url" content="https://mikulove.com/2017/03/22/bian-yi-shu-xu-guan-de-keng/">
-<meta property="twitter:url" content="https://mikulove.com/2017/03/22/bian-yi-shu-xu-guan-de-keng/">
-<meta property="og:site_name" content="蓝白胖次">
-<meta property="og:description" content="前言
-
-最近编译Squirrel,各种Error,查了下GitHub的工单,发现是 snappy 导致的.">
-<meta name="twitter:description" content="前言
-
-最近编译Squirrel,各种Error,查了下GitHub的工单,发现是 snappy 导致的.">
-<meta property="og:locale" content="en-us">
-
-  
-    <meta property="article:published_time" content="2017-03-22T00:11:24">
-  
-  
-    <meta property="article:modified_time" content="2017-03-22T00:11:24">
-  
-  
-  
+    <meta name="twitter:card" content="summary"/>
     
-      <meta property="article:section" content="macOS">
-    
-      <meta property="article:section" content="input">
-    
-  
-  
-    
-      <meta property="article:tag" content="macOS">
-    
-  
+ 
+    <meta name="twitter:title" content="编译鼠须管的坑"/>
+    <meta name="twitter:description" content="&lt;h2 id=&#34;前言&#34;&gt;前言&lt;/h2&gt;
 
+&lt;p&gt;最近编译Squirrel,各种Error,查了下GitHub的工单,发现是 &lt;code&gt;snappy&lt;/code&gt; 导致的.&lt;/p&gt;"/>
+    <meta name="twitter:url" content="https://mikulove.com/2017/03/22/bian-yi-shu-xu-guan-de-keng/" />
+    <meta name="twitter:site" content="@karlzeo"/>
 
-<meta name="twitter:card" content="summary">
+    <meta property="og:site_name" content="" />
+    <meta property="og:title" content="编译鼠须管的坑 &middot; 蓝白胖次" />
+    <meta property="og:url" content="https://mikulove.com/2017/03/22/bian-yi-shu-xu-guan-de-keng/" />
+    <meta property="article:publisher" content="https://www.facebook.com/nieyujiang" />
 
-  <meta name="twitter:site" content="@karlzeo">
+    <meta property="og:type" content="article" />
+    <meta property="og:description" content="&lt;h2 id=&#34;前言&#34;&gt;前言&lt;/h2&gt;
 
+&lt;p&gt;最近编译Squirrel,各种Error,查了下GitHub的工单,发现是 &lt;code&gt;snappy&lt;/code&gt; 导致的.&lt;/p&gt;" />
 
-  <meta name="twitter:creator" content="@karlzeo">
+    <meta property="article:published_time" content="2017-03-22T00:11:24Z" />
+    <meta property="article:tag" content="macOS" />
 
+    <meta property="og:image" content="https://mikulove.com/img/blog-cover.png"/>
 
+    <meta name="generator" content="Hugo 0.55.6" />
 
-
-
-
-  <meta property="og:image" content="https://initiate.alphacoders.com/download/cover/65544/png/122263928997024">
-  <meta property="twitter:image" content="https://initiate.alphacoders.com/download/cover/65544/png/122263928997024">
-
-
-  <meta property="og:image" content="https://images5.alphacoders.com/782/782977.png">
-  <meta property="twitter:image" content="https://images5.alphacoders.com/782/782977.png">
-
-
-
-
-  <meta property="og:image" content="https://www.gravatar.com/avatar/a7ee5edbac4bb434a62fb744ea0d818d?s=640">
-  <meta property="twitter:image" content="https://www.gravatar.com/avatar/a7ee5edbac4bb434a62fb744ea0d818d?s=640">
-
-
-    <title>编译鼠须管的坑</title>
-
-    <link rel="icon" href="https://pbs.twimg.com/profile_images/879115090133262336/ZPOgwMdI_400x400.jpg">
+    <!-- Stylesheets -->
+    <link rel="stylesheet" type="text/css" href="https://mikulove.com/built/screen.css" /> 
+    <link rel="stylesheet" type="text/css" href="https://mikulove.com/css/casper-two.css" /> 
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css" />
     
 
-    
+     
 
-    <link rel="canonical" href="https://mikulove.com/2017/03/22/bian-yi-shu-xu-guan-de-keng/">
+</head>
 
-    
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha256-eZrrJcwDc/3uDhsdt61sL2oOBY362qM3lon1gyExkL0=" crossorigin="anonymous" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.4/jquery.fancybox.min.css" integrity="sha256-vuXZ9LGmmwtjqFX1F+EKin1ThZMub58gKULUyf0qECk=" crossorigin="anonymous" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.4/helpers/jquery.fancybox-thumbs.min.css" integrity="sha256-SEa4XYAHihTcEP1f5gARTB2K26Uk8PsndQYHQC1f4jU=" crossorigin="anonymous" />
-    
-    
-    <link rel="stylesheet" href="https://mikulove.com/css/style-nnm2spxvve8onlujjlegkkytaehyadd4ksxc1hyzzq9a2wvtrgbljqyulomn.min.css" />
-    
-    
 
-    
-      
-    
-    
-  </head>
+<body class="post-template">
+  <div class="site-wrapper"> 
 
-  <body>
-    <div id="blog">
-      <header id="header" data-behavior="4">
-  <i id="btn-open-sidebar" class="fa fa-lg fa-bars"></i>
-  <div class="header-title">
-    <a class="header-title-link" href="https://mikulove.com/">蓝白胖次</a>
+<header class="site-header outer">
+  <div class="inner">
+    <nav class="site-nav">
+      <div class="site-nav-left">
+        <a class="site-nav-logo" href="#"><img src="https://mikulove.com/img/logo.png" alt="蓝白胖次" /></a>
+
+        <ul class="nav" role="menu">
+        
+        
+        
+            <li class="" role="menuitem">
+              <a href="https://mikulove.com/">Home</a>
+            </li>
+        
+            <li class="" role="menuitem">
+              <a href="https://mikulove.com/categories/">Categories</a>
+            </li>
+        
+            <li class="" role="menuitem">
+              <a href="https://mikulove.com/links/">My Friends</a>
+            </li>
+        
+            <li class="" role="menuitem">
+              <a href="https://mikulove.com/tags/">Tags</a>
+            </li>
+        
+            <li class="nav-current" role="menuitem">
+              <a href="https://mikulove.com/post/">Posts</a>
+            </li>
+        
+      </ul></div>
+
+      <div class="site-nav-right">
+        <div class="social-links">
+                    <a class="social-link social-link-fb" href="https://www.facebook.com/nieyujiang" target="_blank" rel="noopener"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path d="M19 6h5V0h-5c-3.86 0-7 3.14-7 7v3H8v6h4v16h6V16h5l1-6h-6V7c0-.542.458-1 1-1z"/></svg></a>
+
+                    <a class="social-link social-link-tw" href="https://twitter.com/karlzeo" target="_blank" rel="noopener"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path d="M30.063 7.313c-.813 1.125-1.75 2.125-2.875 2.938v.75c0 1.563-.188 3.125-.688 4.625a15.088 15.088 0 0 1-2.063 4.438c-.875 1.438-2 2.688-3.25 3.813a15.015 15.015 0 0 1-4.625 2.563c-1.813.688-3.75 1-5.75 1-3.25 0-6.188-.875-8.875-2.625.438.063.875.125 1.375.125 2.688 0 5.063-.875 7.188-2.5-1.25 0-2.375-.375-3.375-1.125s-1.688-1.688-2.063-2.875c.438.063.813.125 1.125.125.5 0 1-.063 1.5-.25-1.313-.25-2.438-.938-3.313-1.938a5.673 5.673 0 0 1-1.313-3.688v-.063c.813.438 1.688.688 2.625.688a5.228 5.228 0 0 1-1.875-2c-.5-.875-.688-1.813-.688-2.75 0-1.063.25-2.063.75-2.938 1.438 1.75 3.188 3.188 5.25 4.25s4.313 1.688 6.688 1.813a5.579 5.579 0 0 1 1.5-5.438c1.125-1.125 2.5-1.688 4.125-1.688s3.063.625 4.188 1.813a11.48 11.48 0 0 0 3.688-1.375c-.438 1.375-1.313 2.438-2.563 3.188 1.125-.125 2.188-.438 3.313-.875z"/></svg></a>
+
+                    <a class="social-link" href="https://github.com/karlzeo" target="_blank" rel="noopener"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg></a>
+
+                    
+
+                    
+        </div>  
+            
+      </div>
+
+    </nav>  
+
   </div>
-  
-    
-      <a class="header-right-picture "
-         href="https://mikulove.com/#about">
-    
-    
-    
-      
-        <img class="header-picture" src="https://www.gravatar.com/avatar/a7ee5edbac4bb434a62fb744ea0d818d?s=90" alt="Author&#39;s picture" />
-      
-    
-    </a>
-  
 </header>
 
-      <nav id="sidebar" data-behavior="4">
-  <div class="sidebar-container">
+<main id="site-main" class="site-main outer" role="main">
+  <div class="inner">
     
-      <div class="sidebar-profile">
-        <a href="https://mikulove.com/#about">
-          <img class="sidebar-profile-picture" src="https://www.gravatar.com/avatar/a7ee5edbac4bb434a62fb744ea0d818d?s=110" alt="Author&#39;s picture" />
-        </a>
-        <h4 class="sidebar-profile-name">Karl Zeo</h4>
-        
-          <h5 class="sidebar-profile-bio">I am the bone of my sword.<br>Steel is my body, and fire is my blood.<br>I have created over a thousand blades.<br>Unknown to Death.<br>Nor known to Life.<br>Have withstood pain to create many weapons.<br>Yet, those hands will never hold anything.<br>So as I pray, unlimited blade works.<br></h5>
-        
-      </div>
+      <article class="post-full post"> 
+    <header class="post-full-header">
+        <section class="post-full-meta">
+            <time class="post-full-meta-date" datetime="2017-03-22">22 March 2017</time>
+                <span class="date-divider">/</span> <a href="https://mikulove.com/tags/macos/">#macOS</a>&nbsp;
+        </section>
+        <h1 class="post-full-title">编译鼠须管的坑</h1>
+    </header>
     
-    <ul class="sidebar-buttons">
-      
-  <li class="sidebar-button">
-    
-      <a class="sidebar-button-link " href="https://mikulove.com/">
-    
-      <i class="sidebar-button-icon fa fa-lg fa-home"></i>
-      
-      <span class="sidebar-button-desc">Home</span>
-    </a>
-  </li>
+    <figure class="post-full-image" style="background-image: url(https://mikulove.com/defimg/5.jpg)">
+    </figure>
 
-  <li class="sidebar-button">
-    
-      <a class="sidebar-button-link " href="https://mikulove.com/categories">
-    
-      <i class="sidebar-button-icon fa fa-lg fa-bookmark"></i>
-      
-      <span class="sidebar-button-desc">Categories</span>
-    </a>
-  </li>
-
-  <li class="sidebar-button">
-    
-      <a class="sidebar-button-link " href="https://mikulove.com/tags">
-    
-      <i class="sidebar-button-icon fa fa-lg fa-tags"></i>
-      
-      <span class="sidebar-button-desc">Tags</span>
-    </a>
-  </li>
-
-  <li class="sidebar-button">
-    
-      <a class="sidebar-button-link " href="https://mikulove.com/archives">
-    
-      <i class="sidebar-button-icon fa fa-lg fa-archive"></i>
-      
-      <span class="sidebar-button-desc">Archives</span>
-    </a>
-  </li>
-
-  <li class="sidebar-button">
-    
-      <a class="sidebar-button-link " href="https://mikulove.com/#about">
-    
-      <i class="sidebar-button-icon fa fa-lg fa-question"></i>
-      
-      <span class="sidebar-button-desc">About</span>
-    </a>
-  </li>
-
-
-    </ul>
-    <ul class="sidebar-buttons">
-      
-  <li class="sidebar-button">
-    
-      <a class="sidebar-button-link " href="https://github.com/karlzeo" target="_blank" rel="noopener">
-    
-      <i class="sidebar-button-icon fa fa-lg fa-github"></i>
-      
-      <span class="sidebar-button-desc">GitHub</span>
-    </a>
-  </li>
-
-  <li class="sidebar-button">
-    
-      <a class="sidebar-button-link " href="https://twitter.com/karlzeo" target="_blank" rel="noopener">
-    
-      <i class="sidebar-button-icon fa fa-lg fa-twitter"></i>
-      
-      <span class="sidebar-button-desc">Twitter</span>
-    </a>
-  </li>
-
-  <li class="sidebar-button">
-    
-      <a class="sidebar-button-link " href="https://mikulove.com/page/links">
-    
-      <i class="sidebar-button-icon fa fa-lg fa-external-link"></i>
-      
-      <span class="sidebar-button-desc">links</span>
-    </a>
-  </li>
-
-
-    </ul>
-    <ul class="sidebar-buttons">
-      
-
-    </ul>
-  </div>
-</nav>
-
-      
-  <div class="post-header-cover
-              text-center
-              post-header-cover--full"
-       style="background-image:url('https://images5.alphacoders.com/782/782977.png')"
-       data-behavior="4">
-    
-  </div>
-
-
-      <div id="main" data-behavior="4"
-        class="hasCover
-               hasCoverMetaOut
-               hasCoverCaption">
-        <article class="post" itemscope itemType="http://schema.org/BlogPosting">
-          
-            <span class="post-header-cover-caption caption">ジーとしてでも、どうにもならねぇ</span>
-          
-          
-            <div class="post-header main-content-wrap text-center">
-  
-    <h1 class="post-title" itemprop="headline">
-      编译鼠须管的坑
-    </h1>
-  
-  
-  <div class="postShorten-meta post-meta">
-    
-      <time itemprop="datePublished" datetime="2017-03-22T00:11:24Z">
-        
-  
-  
-  
-  
-    22 March 2017
-  
-
-      </time>
-    
-    
-  
-  
-    <span>in</span>
-    
-      <a class="category-link" href="https://mikulove.com/categories/macos">macOS</a>, 
-    
-      <a class="category-link" href="https://mikulove.com/categories/input">input</a>
-    
-  
-
-  </div>
-
-</div>
-          
-          <div class="post-content markdown" itemprop="articleBody">
-            <div class="main-content-wrap">
-              <h2 id="前言">前言</h2>
+    <section class="post-full-content">
+        <div class="kg-card-markdown">
+        <h2 id="前言">前言</h2>
 
 <p>最近编译Squirrel,各种Error,查了下GitHub的工单,发现是 <code>snappy</code> 导致的.</p>
 
@@ -304,475 +144,249 @@
 <p>这个东西既然会被装上,肯定是比较重要的依赖库,装完Squirrel,再手动link回去就好了.</p>
 
 <pre><code>brew link snappy
-</code></pre>
-              
-            </div>
-          </div>
-          <div id="post-footer" class="post-footer main-content-wrap">
-            
-              
-                
-                
-                  <div class="post-footer-tags">
-                    <span class="text-color-light text-small">TAGGED IN</span><br/>
-                    
-  <a class="tag tag--primary tag--small" href="https://mikulove.com/tags/macos/">macOS</a>
+</code></pre>    
+        </div>
+    </section>
 
-                  </div>
-                
-              
-            
-            <div class="post-actions-wrap">
-  
-      <nav >
-        <ul class="post-actions post-action-nav">
-          
-            <li class="post-action">
-              
-                <a class="post-action-btn btn btn--default tooltip--top" href="https://mikulove.com/2017/05/02/macos-xue-xi-bi-ji-yin-cang-dock-lan-tu-biao/" data-tooltip="macOS学习笔记--隐藏dock栏的图标">
-              
-                  <i class="fa fa-angle-left"></i>
-                  <span class="hide-xs hide-sm text-small icon-ml">NEXT</span>
-                </a>
-            </li>
-            <li class="post-action">
-              
-                <a class="post-action-btn btn btn--default tooltip--top" href="https://mikulove.com/2017/03/16/xiu-fu-ios-10-yue-yu-huan-jing-ssh-bu-neng-yong-de-wen-ti/" data-tooltip="修复iOS 10越狱环境SSH不能用的问题">
-              
-                  <span class="hide-xs hide-sm text-small icon-mr">PREVIOUS</span>
-                  <i class="fa fa-angle-right"></i>
-                </a>
-            </li>
-          
+    <footer class="post-full-footer">
+      <section class="author-card">
+        <img class="author-profile-image" src="https://mikulove.com/img/logo.png" alt="Author" />
+        <section class="author-card-content">
+            <h4 class="author-card-name"><a href="https://mikulove.com/">Karl Zeo</a></h4>
+                <p>macOS Developer</p>
+        </section>
+      </section>
+    </footer>
+</article>
+    
+    
+    
+
+  </div>
+</main>
+
+
+<aside class="read-next outer">
+  <div class="inner">
+    <div class="read-next-feed">      
+      
+<article class="read-next-card" 
+            style="background-image: url(https://mikulove.com/img/blog-cover.png);" >
+    <header class="read-next-card-header">
+        <small class="read-next-card-header-sitetitle">&mdash; 蓝白胖次 &mdash;</small>
+        
+        <h3 class="read-next-card-header-title"><a href="https://mikulove.com/tags/macos/">#macOS</a></h3>
+    </header>
+    <div class="read-next-divider"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 14.5s2 3 5 3 5.5-2.463 5.5-5.5S21 6.5 18 6.5c-5 0-7 11-12 11C2.962 17.5.5 15.037.5 12S3 6.5 6 6.5s4.5 3.5 4.5 3.5"/></svg>
+    </div>
+
+    <div class="read-next-card-content">
+      
+        <ul>
+          <li><a href="https://mikulove.com/2016/04/30/afnetworking-30-xiang-bi-zhi-qian-ban-ben-de-bian-hua/">AFNetworking 3.0&#43; 相比之前版本的变化</a></li>            
+        
+          <li><a href="https://mikulove.com/2017/05/02/macos-xue-xi-bi-ji-yin-cang-dock-lan-tu-biao/">macOS学习笔记--隐藏dock栏的图标</a></li>            
+        
+          <li><a href="https://mikulove.com/2017/05/22/qing-chu-iptables-fang-huo-qiang-gui-ze/">清除iptables防火墙规则</a></li>            
+        
+          <li><a href="https://mikulove.com/2018/03/10/fix-the-problem-named-is-apparently-in-use-by-the-system/">修正安装Arch Linux时 is apparently in use by the system; will not make a filesystem here! 的问题</a></li>            
         </ul>
-      </nav>
-    <ul class="post-actions post-action-share" >
+    </div>
+    <footer class="read-next-card-footer">
       
-        <li class="post-action hide-lg hide-md hide-sm">
-          <a class="post-action-btn btn btn--default btn-open-shareoptions" href="#btn-open-shareoptions">
-            <i class="fa fa-share-alt"></i>
-          </a>
-        </li>
-        
-          <li class="post-action hide-xs">
-            <a class="post-action-btn btn btn--default" target="new" href="https://www.facebook.com/sharer/sharer.php?u=https://mikulove.com/2017/03/22/bian-yi-shu-xu-guan-de-keng/">
-              <i class="fa fa-facebook-official"></i>
-            </a>
-          </li>
-        
-          <li class="post-action hide-xs">
-            <a class="post-action-btn btn btn--default" target="new" href="https://twitter.com/intent/tweet?text=https://mikulove.com/2017/03/22/bian-yi-shu-xu-guan-de-keng/">
-              <i class="fa fa-twitter"></i>
-            </a>
-          </li>
-        
-          <li class="post-action hide-xs">
-            <a class="post-action-btn btn btn--default" target="new" href="https://plus.google.com/share?url=https://mikulove.com/2017/03/22/bian-yi-shu-xu-guan-de-keng/">
-              <i class="fa fa-google-plus"></i>
-            </a>
-          </li>
-        
+        <a href="https://mikulove.com/tags/macos/">See all related posts →</a>
+    </footer>
+</article>
+
+
+      
+      <article class="post-card post"> 
+    
+    <a class="post-card-image-link" href="https://mikulove.com/2017/05/02/macos-xue-xi-bi-ji-yin-cang-dock-lan-tu-biao/">
+      <div class="post-card-image" style="background-image: url(https://mikulove.com/defimg/2.jpg)"></div>
+    </a>    
+    
+
+    <div class="post-card-content">
+      <a class="post-card-content-link" href="https://mikulove.com/2017/05/02/macos-xue-xi-bi-ji-yin-cang-dock-lan-tu-biao/">
+          <header class="post-card-header">
+              <span class="post-card-tags">
+              #macOS 
+              #Swift  </span>
+              
+              <h2 class="post-card-title">macOS学习笔记--隐藏dock栏的图标</h2>
+          </header>
+          <section class="post-card-excerpt">
+              
+                <p> 首先,打开xcode,找到工程的info.plist文件. 用源码的方式打开 最后一个key标签后面加入如下几行.
+&lt;key&gt;LSUIElement&lt;/key&gt; &lt;true/&gt;   ...  </p>
+              
+          </section>
+      </a>
+
+      <footer class="post-card-meta">
+          <img class="author-profile-image" src="https://mikulove.com/img/logo.png" alt="Author" />
+          <span class="post-card-author"><a href="https://mikulove.com/">Karl Zeo</a></span>
+      </footer>
+    </div>
+</article>
       
       
-      <li class="post-action">
-        
-          <a class="post-action-btn btn btn--default" href="#">
-        
-          <i class="fa fa-list"></i>
-        </a>
-      </li>
-    </ul>
-  
+      <article class="post-card post"> 
+    
+    <a class="post-card-image-link" href="https://mikulove.com/2017/03/16/xiu-fu-ios-10-yue-yu-huan-jing-ssh-bu-neng-yong-de-wen-ti/">
+      <div class="post-card-image" style="background-image: url(https://mikulove.com/defimg/2.jpg)"></div>
+    </a>    
+    
+
+    <div class="post-card-content">
+      <a class="post-card-content-link" href="https://mikulove.com/2017/03/16/xiu-fu-ios-10-yue-yu-huan-jing-ssh-bu-neng-yong-de-wen-ti/">
+          <header class="post-card-header">
+              <span class="post-card-tags">
+              #iOS 
+              #jailbreaking  </span>
+              
+              <h2 class="post-card-title">修复iOS 10越狱环境SSH不能用的问题</h2>
+          </header>
+          <section class="post-card-excerpt">
+              
+                <p>环境准备 安装 OCaml
+brew install opam  ...  </p>
+              
+          </section>
+      </a>
+
+      <footer class="post-card-meta">
+          <img class="author-profile-image" src="https://mikulove.com/img/logo.png" alt="Author" />
+          <span class="post-card-author"><a href="https://mikulove.com/">Karl Zeo</a></span>
+      </footer>
+    </div>
+</article>
+      
+    </div>
+  </div>
+</aside>
+
+<div class="floating-header">
+  <div class="floating-header-logo">
+    <a href="https://mikulove.com/">
+      <img src="https://mikulove.com/img/logo.png" alt="" />
+      <span></span>
+    </a>
+  </div>
+  <span class="floating-header-divider">&mdash;</span>
+  <div class="floating-header-title">编译鼠须管的坑</div>
+  <div class="floating-header-share">
+    <div class="floating-header-share-label">Share this <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+     <path d="M7.5 15.5V4a1.5 1.5 0 1 1 3 0v4.5h2a1 1 0 0 1 1 1h2a1 1 0 0 1 1 1H18a1.5 1.5 0 0 1 1.5 1.5v3.099c0 .929-.13 1.854-.385 2.748L17.5 23.5h-9c-1.5-2-5.417-8.673-5.417-8.673a1.2 1.2 0 0 1 1.76-1.605L7.5 15.5zm6-6v2m-3-3.5v3.5m6-1v2"/></svg>
+    </div>
+    
+    <a class="floating-header-share-tw" href="https://twitter.com/share?text=%e7%bc%96%e8%af%91%e9%bc%a0%e9%a1%bb%e7%ae%a1%e7%9a%84%e5%9d%91&amp;url=https%3a%2f%2fmikulove.com%2f2017%2f03%2f22%2fbian-yi-shu-xu-guan-de-keng%2f"
+          onclick="window.open(this.href, 'share-twitter', 'width=550,height=235');return false;">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path d="M30.063 7.313c-.813 1.125-1.75 2.125-2.875 2.938v.75c0 1.563-.188 3.125-.688 4.625a15.088 15.088 0 0 1-2.063 4.438c-.875 1.438-2 2.688-3.25 3.813a15.015 15.015 0 0 1-4.625 2.563c-1.813.688-3.75 1-5.75 1-3.25 0-6.188-.875-8.875-2.625.438.063.875.125 1.375.125 2.688 0 5.063-.875 7.188-2.5-1.25 0-2.375-.375-3.375-1.125s-1.688-1.688-2.063-2.875c.438.063.813.125 1.125.125.5 0 1-.063 1.5-.25-1.313-.25-2.438-.938-3.313-1.938a5.673 5.673 0 0 1-1.313-3.688v-.063c.813.438 1.688.688 2.625.688a5.228 5.228 0 0 1-1.875-2c-.5-.875-.688-1.813-.688-2.75 0-1.063.25-2.063.75-2.938 1.438 1.75 3.188 3.188 5.25 4.25s4.313 1.688 6.688 1.813a5.579 5.579 0 0 1 1.5-5.438c1.125-1.125 2.5-1.688 4.125-1.688s3.063.625 4.188 1.813a11.48 11.48 0 0 0 3.688-1.375c-.438 1.375-1.313 2.438-2.563 3.188 1.125-.125 2.188-.438 3.313-.875z"/></svg>
+      </a>
+      <a class="floating-header-share-fb" href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fmikulove.com%2f2017%2f03%2f22%2fbian-yi-shu-xu-guan-de-keng%2f"
+          onclick="window.open(this.href, 'share-facebook','width=580,height=296');return false;">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path d="M19 6h5V0h-5c-3.86 0-7 3.14-7 7v3H8v6h4v16h6V16h5l1-6h-6V7c0-.542.458-1 1-1z"/></svg>
+      </a>
+  </div>
+
+  <progress class="progress" value="0">
+    <div class="progress-container">
+      <span class="progress-bar"></span>
+    </div>
+  </progress>
 </div>
 
-            
-              
-            
-          </div>
-        </article>
-        <footer id="footer" class="main-content-wrap">
-  <span class="copyrights">
-    &copy; 2019 <a href="https://github.com/karlzeo">Karl Zeo</a>. All Rights Reserved
-  </span>
+
+
+<footer class="site-footer outer">
+  <div class="site-footer-content inner">
+    <section class="copyright" style="line-height: 1.3em;">
+      <a href="https://mikulove.com/">Karl Zeo</a> © 2019 <br>
+      
+    </section>
+    <nav class="site-footer-nav">
+        <a href="https://mikulove.com/">Latest Posts</a>
+        <a href="https://www.facebook.com/nieyujiang" target="_blank" rel="noopener">Facebook</a>
+        <a href="https://twitter.com/karlzeo" target="_blank" rel="noopener">Twitter</a>
+        <a href="https://github.com/karlzeo" target="_blank" rel="noopener">Github</a>
+        
+        
+    </nav>  
+  </div>
 </footer>
 
-      </div>
-      <div id="bottom-bar" class="post-bottom-bar" data-behavior="4">
-        <div class="post-actions-wrap">
-  
-      <nav >
-        <ul class="post-actions post-action-nav">
-          
-            <li class="post-action">
-              
-                <a class="post-action-btn btn btn--default tooltip--top" href="https://mikulove.com/2017/05/02/macos-xue-xi-bi-ji-yin-cang-dock-lan-tu-biao/" data-tooltip="macOS学习笔记--隐藏dock栏的图标">
-              
-                  <i class="fa fa-angle-left"></i>
-                  <span class="hide-xs hide-sm text-small icon-ml">NEXT</span>
-                </a>
-            </li>
-            <li class="post-action">
-              
-                <a class="post-action-btn btn btn--default tooltip--top" href="https://mikulove.com/2017/03/16/xiu-fu-ios-10-yue-yu-huan-jing-ssh-bu-neng-yong-de-wen-ti/" data-tooltip="修复iOS 10越狱环境SSH不能用的问题">
-              
-                  <span class="hide-xs hide-sm text-small icon-mr">PREVIOUS</span>
-                  <i class="fa fa-angle-right"></i>
-                </a>
-            </li>
-          
-        </ul>
-      </nav>
-    <ul class="post-actions post-action-share" >
-      
-        <li class="post-action hide-lg hide-md hide-sm">
-          <a class="post-action-btn btn btn--default btn-open-shareoptions" href="#btn-open-shareoptions">
-            <i class="fa fa-share-alt"></i>
-          </a>
-        </li>
-        
-          <li class="post-action hide-xs">
-            <a class="post-action-btn btn btn--default" target="new" href="https://www.facebook.com/sharer/sharer.php?u=https://mikulove.com/2017/03/22/bian-yi-shu-xu-guan-de-keng/">
-              <i class="fa fa-facebook-official"></i>
-            </a>
-          </li>
-        
-          <li class="post-action hide-xs">
-            <a class="post-action-btn btn btn--default" target="new" href="https://twitter.com/intent/tweet?text=https://mikulove.com/2017/03/22/bian-yi-shu-xu-guan-de-keng/">
-              <i class="fa fa-twitter"></i>
-            </a>
-          </li>
-        
-          <li class="post-action hide-xs">
-            <a class="post-action-btn btn btn--default" target="new" href="https://plus.google.com/share?url=https://mikulove.com/2017/03/22/bian-yi-shu-xu-guan-de-keng/">
-              <i class="fa fa-google-plus"></i>
-            </a>
-          </li>
-        
-      
-      
-      <li class="post-action">
-        
-          <a class="post-action-btn btn btn--default" href="#">
-        
-          <i class="fa fa-list"></i>
-        </a>
-      </li>
-    </ul>
-  
 </div>
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+<script type="text/javascript" src="//code.jquery.com/jquery-3.2.1.min.js"></script>
+<script type="text/javascript" src="https://mikulove.com/js/jquery.fitvids.js"></script>
 
-      </div>
-      <div id="share-options-bar" class="share-options-bar" data-behavior="4">
-  <i id="btn-close-shareoptions" class="fa fa-close"></i>
-  <ul class="share-options">
-    
-      <li class="share-option">
-        <a class="share-option-btn" target="new" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fmikulove.com%2F2017%2F03%2F22%2Fbian-yi-shu-xu-guan-de-keng%2F">
-          <i class="fa fa-facebook-official"></i><span>Share on Facebook</span>
-        </a>
-      </li>
-    
-      <li class="share-option">
-        <a class="share-option-btn" target="new" href="https://twitter.com/intent/tweet?text=https%3A%2F%2Fmikulove.com%2F2017%2F03%2F22%2Fbian-yi-shu-xu-guan-de-keng%2F">
-          <i class="fa fa-twitter"></i><span>Share on Twitter</span>
-        </a>
-      </li>
-    
-      <li class="share-option">
-        <a class="share-option-btn" target="new" href="https://plus.google.com/share?url=https%3A%2F%2Fmikulove.com%2F2017%2F03%2F22%2Fbian-yi-shu-xu-guan-de-keng%2F">
-          <i class="fa fa-google-plus"></i><span>Share on Google&#43;</span>
-        </a>
-      </li>
-    
-  </ul>
-</div>
-<div id="share-options-mask" class="share-options-mask"></div>
-    </div>
-    
-    <div id="about">
-  <div id="about-card">
-    <div id="about-btn-close">
-      <i class="fa fa-remove"></i>
-    </div>
-    
-      <img id="about-card-picture" src="https://www.gravatar.com/avatar/a7ee5edbac4bb434a62fb744ea0d818d?s=110" alt="Author&#39;s picture" />
-    
-    <h4 id="about-card-name">Karl Zeo</h4>
-    
-      <div id="about-card-bio">I am the bone of my sword.<br>Steel is my body, and fire is my blood.<br>I have created over a thousand blades.<br>Unknown to Death.<br>Nor known to Life.<br>Have withstood pain to create many weapons.<br>Yet, those hands will never hold anything.<br>So as I pray, unlimited blade works.<br></div>
-    
-    
-      <div id="about-card-job">
-        <i class="fa fa-briefcase"></i>
-        <br/>
-        macOS developpers
-      </div>
-    
-    
-      <div id="about-card-location">
-        <i class="fa fa-map-marker"></i>
-        <br/>
-        China
-      </div>
-    
-  </div>
-</div>
+<script>hljs.initHighlightingOnLoad();</script>
 
-    <div id="algolia-search-modal" class="modal-container">
-  <div class="modal">
-    <div class="modal-header">
-      <span class="close-button"><i class="fa fa-close"></i></span>
-      <a href="https://algolia.com" target="_blank" rel="noopener" class="searchby-algolia text-color-light link-unstyled">
-        <span class="searchby-algolia-text text-color-light text-small">by</span>
-        <img class="searchby-algolia-logo" src="https://www.algolia.com/static_assets/images/press/downloads/algolia-light.svg">
-      </a>
-      <i class="search-icon fa fa-search"></i>
-      <form id="algolia-search-form">
-        <input type="text" id="algolia-search-input" name="search"
-          class="form-control input--large search-input" placeholder="Search" />
-      </form>
-    </div>
-    <div class="modal-body">
-      <div class="no-result text-color-light text-center">no post found</div>
-      <div class="results">
+
+
+    <script>
+
+
+
+
+
+$(document).ready(function () {
+    
+    var $postContent = $(".post-full-content");
+    $postContent.fitVids();
+    
+
+    var progressBar = document.querySelector('progress');
+    var header = document.querySelector('.floating-header');
+    var title = document.querySelector('.post-full-title');
+
+    var lastScrollY = window.scrollY;
+    var lastWindowHeight = window.innerHeight;
+    var lastDocumentHeight = $(document).height();
+    var ticking = false;
+
+    function onScroll() {
+        lastScrollY = window.scrollY;
+        requestTick();
+    }
+
+    function onResize() {
+        lastWindowHeight = window.innerHeight;
+        lastDocumentHeight = $(document).height();
+        requestTick();
+    }
+
+    function requestTick() {
+        if (!ticking) {
+            requestAnimationFrame(update);
+        }
+        ticking = true;
+    }
+
+    function update() {
+        var trigger = title.getBoundingClientRect().top + window.scrollY;
+        var triggerOffset = title.offsetHeight + 35;
+        var progressMax = lastDocumentHeight - lastWindowHeight;
+
         
-        
-          <div class="media">
-            
-            <div class="media-body">
-              <a class="link-unstyled" href="https://mikulove.com/2018/07/17/how-to-set-netease-enterprise-mailbox-on-airmail/">
-                <h3 class="media-heading">How to Set NetEase Enterprise Mailbox on Airmail</h3>
-              </a>
-              <span class="media-meta">
-                <span class="media-date text-small">
-                  Jul 7, 2018
-                </span>
-              </span>
-              <div class="media-content hide-xs font-merryweather"><p>Now, I go to a new company and start my worker life.This company have their own private Enterprise Mailbox(use NetEase Enterprise Mailbox service).I like manager my mail on one Application.I dont&rsquo;t like do one things by many ways.</p></div>
-            </div>
-            <div style="clear:both;"></div>
-            <hr>
-          </div>
-        
-          <div class="media">
-            
-            <div class="media-body">
-              <a class="link-unstyled" href="https://mikulove.com/2018/05/31/how-to-manager-macos-app-in-a-well-way/">
-                <h3 class="media-heading">How to manager macOS App in a well way</h3>
-              </a>
-              <span class="media-meta">
-                <span class="media-date text-small">
-                  May 5, 2018
-                </span>
-              </span>
-              <div class="media-content hide-xs font-merryweather"><p>I am a Linux user before using macOS.In Linux, We can using the package manager install the all Apps. But in macOS, it not. So, how can I use one command to upgrade all App and command line tools like Linux? So, I find a good <code>Homebrew Plugin</code>.</p></div>
-            </div>
-            <div style="clear:both;"></div>
-            <hr>
-          </div>
-        
-          <div class="media">
-            
-            <div class="media-body">
-              <a class="link-unstyled" href="https://mikulove.com/2018/05/27/a-strange-problem-with-ruby-china-gem-sources/">
-                <h3 class="media-heading">A Strange Problem With Ruby China Gem Sources</h3>
-              </a>
-              <span class="media-meta">
-                <span class="media-date text-small">
-                  May 5, 2018
-                </span>
-              </span>
-              <div class="media-content hide-xs font-merryweather"><p>Today, I get a strange question for <code>gem</code>,the ruby package manager.I try to use <code>sudo gem update --system</code> and <code>sudo gem update</code> to update my loacl package.But it
-seems not work well.</p></div>
-            </div>
-            <div style="clear:both;"></div>
-            <hr>
-          </div>
-        
-          <div class="media">
-            
-            <div class="media-body">
-              <a class="link-unstyled" href="https://mikulove.com/2018/05/17/fix-vim-_arguments-xxx_vim_files-function-definition-file-not-found-error/">
-                <h3 class="media-heading">Fix Vim &#34;_Arguments Xxx:_vim_files Function Definition File Not Found&#34; Error</h3>
-              </a>
-              <span class="media-meta">
-                <span class="media-date text-small">
-                  May 5, 2018
-                </span>
-              </span>
-              <div class="media-content hide-xs font-merryweather"><p>Today, I got the error named &ldquo;_Arguments Xxx:_vim_files Function Definition File Not Found&rdquo; in my server when I was edit nginx config file.</p>
+        if (lastScrollY >= trigger + triggerOffset) {
+            header.classList.add('floating-active');
+        } else {
+            header.classList.remove('floating-active');
+        }
 
-<p>Then,I search this error on Google.</p></div>
-            </div>
-            <div style="clear:both;"></div>
-            <hr>
-          </div>
-        
-          <div class="media">
-            
-            <div class="media-body">
-              <a class="link-unstyled" href="https://mikulove.com/2018/03/12/start-dhcpd-when-linux-system-startup/">
-                <h3 class="media-heading">Linux开机时自动获取DHCP地址</h3>
-              </a>
-              <span class="media-meta">
-                <span class="media-date text-small">
-                  Mar 3, 2018
-                </span>
-              </span>
-              <div class="media-content hide-xs font-merryweather"><p>最近在家里折腾老电脑,作为局域网内服务器,帮我提供优质的网络服务.记录一下,备忘.</p></div>
-            </div>
-            <div style="clear:both;"></div>
-            <hr>
-          </div>
-        
-          <div class="media">
-            
-            <div class="media-body">
-              <a class="link-unstyled" href="https://mikulove.com/2018/03/10/fix-the-problem-named-is-apparently-in-use-by-the-system/">
-                <h3 class="media-heading">修正安装Arch Linux时 is apparently in use by the system; will not make a filesystem here! 的问题</h3>
-              </a>
-              <span class="media-meta">
-                <span class="media-date text-small">
-                  Mar 3, 2018
-                </span>
-              </span>
-              <div class="media-content hide-xs font-merryweather"><p>很多次,安装Arch Linux的时候,分区完成后,创建新的文件系统的时候,总是提示<code>/dev/sdax is apparently in use by the system; will not make a filesystem here!</code>.谷歌了一番,总算解决了,记录下解决方案备忘.</p></div>
-            </div>
-            <div style="clear:both;"></div>
-            <hr>
-          </div>
-        
-          <div class="media">
-            
-            <div class="media-body">
-              <a class="link-unstyled" href="https://mikulove.com/2018/03/01/fix-lede-pppoe-connect-bug/">
-                <h3 class="media-heading">修正lede连接PPPoE的Bug</h3>
-              </a>
-              <span class="media-meta">
-                <span class="media-date text-small">
-                  Mar 3, 2018
-                </span>
-              </span>
-              <div class="media-content hide-xs font-merryweather"><p>突然间,我家的WNDR3800就无法连接网络了.神奇的很.不知道是移动公司改了什么东西,还是固件本身就有Bug.总之就是上不去网了.起初,我以为是<code>wan</code>口烧了.但是刷入<code>Gargoyle</code>固件以后,又神奇的可以工作了.emmmmm,很明显是LEDE自己又做了什么负优化.</p></div>
-            </div>
-            <div style="clear:both;"></div>
-            <hr>
-          </div>
-        
-          <div class="media">
-            
-            <div class="media-body">
-              <a class="link-unstyled" href="https://mikulove.com/2018/02/23/install-nodebb-on-linux/">
-                <h3 class="media-heading">nodebb论坛安装备忘</h3>
-              </a>
-              <span class="media-meta">
-                <span class="media-date text-small">
-                  Feb 2, 2018
-                </span>
-              </span>
-              <div class="media-content hide-xs font-merryweather"><h2 id="准备">准备</h2>
+        progressBar.setAttribute('max', progressMax);
+        progressBar.setAttribute('value', lastScrollY);
 
-<ul>
-<li>一台Linux服务器(以CentOS 7.4为例)</li>
-<li>全程root操作</li>
-</ul></div>
-            </div>
-            <div style="clear:both;"></div>
-            <hr>
-          </div>
-        
-          <div class="media">
-            
-            <div class="media-body">
-              <a class="link-unstyled" href="https://mikulove.com/2018/01/23/how-to-fix-unable-to-boot-device-because-it-cannot-be-located-on-disk-in-xcode-9/">
-                <h3 class="media-heading">修复Xcode9中的“Unable to Boot Device Because It Cannot Be Located on Disk”错误</h3>
-              </a>
-              <span class="media-meta">
-                <span class="media-date text-small">
-                  Jan 1, 2018
-                </span>
-              </span>
-              <div class="media-content hide-xs font-merryweather"><h2 id="起因">起因</h2>
+        ticking = false;
+    }
 
-<p>因为手残,把模拟器玩坏了,然后就喜闻乐见的运行不起来了.emmmmm.阴吹斯廷.</p></div>
-            </div>
-            <div style="clear:both;"></div>
-            <hr>
-          </div>
-        
-          <div class="media">
-            
-            <div class="media-body">
-              <a class="link-unstyled" href="https://mikulove.com/2018/01/11/add-macos-software-homebrew-cask-support/">
-                <h3 class="media-heading">为macOS软件添加Homebrew cask支持</h3>
-              </a>
-              <span class="media-meta">
-                <span class="media-date text-small">
-                  Jan 1, 2018
-                </span>
-              </span>
-              <div class="media-content hide-xs font-merryweather"><h2 id="创建索引文件">创建索引文件</h2>
+    window.addEventListener('scroll', onScroll, {passive: true});
+    window.addEventListener('resize', onResize, false);
 
-<p>以&rsquo;VNote&rsquo;为例</p></div>
-            </div>
-            <div style="clear:both;"></div>
-            <hr>
-          </div>
-        
-      </div>
-    </div>
-    <div class="modal-footer">
-      <p class="results-count text-medium"
-         data-message-zero="no post found"
-         data-message-one="1 post found"
-         data-message-other="{n} posts found">
-         28 posts found
-      </p>
-    </div>
-  </div>
-</div>
-    
-  
-    
-    <div id="cover" style="background-image:url('https://initiate.alphacoders.com/download/wallpaper/712933/images6/png/1443530476398270/90138');"></div>
-  
-
-
-    
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
-
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.8.3/prism.min.js" integrity="sha256-haEv2ilTk2sXcJaGbkTtErRCHy/qGt3g+bGbgPf5OTY=" crossorigin="anonymous"></script>
-
-<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.7/js/jquery.fancybox.min.js" integrity="sha256-GEAnjcTqVP+vBp3SSc8bEDQqvWAZMiHyUSIorrWwH50=" crossorigin="anonymous"></script>
-
-
-<script src="https://mikulove.com/js/script-qi9wbxp2ya2j6p7wx1i6tgavftewndznf4v0hy2gvivk1rxgc3lm7njqb6bz.min.js"></script>
-
-
-<script lang="javascript">
-window.onload = updateMinWidth;
-window.onresize = updateMinWidth;
-document.getElementById("sidebar").addEventListener("transitionend", updateMinWidth);
-function updateMinWidth() {
-  var sidebar = document.getElementById("sidebar");
-  var main = document.getElementById("main");
-  main.style.minWidth = "";
-  var w1 = getComputedStyle(main).getPropertyValue("min-width");
-  var w2 = getComputedStyle(sidebar).getPropertyValue("width");
-  var w3 = getComputedStyle(sidebar).getPropertyValue("left");
-  main.style.minWidth = `calc(${w1} - ${w2} - ${w3})`;
-}
+    update();
+});
 </script>
-
-
-  
-    
-  
-
-
-
-
-    
-  </body>
-</html>
-
+</body></html>

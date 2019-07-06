@@ -3,40 +3,28 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://mikulove.com/resume/resume_en/</loc>
-    <lastmod>2018-08-05T09:56:58+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://mikulove.com/resume/</loc>
-    <lastmod>2018-08-05T09:56:58+08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://mikulove.com/resume/resume_cn/</loc>
-    <lastmod>2018-08-05T09:56:58+08:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://mikulove.com/</loc>
     <lastmod>2018-08-05T09:56:58+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://mikulove.com/page/</loc>
-    <lastmod>2018-07-20T19:12:58+08:00</lastmod>
-    <priority>0</priority>
+    <loc>https://mikulove.com/resume_en/</loc>
+    <lastmod>2018-08-05T09:56:58+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://mikulove.com/page/watchlist/</loc>
+    <loc>https://mikulove.com/resume_cn/</loc>
+    <lastmod>2018-08-05T09:56:58+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mikulove.com/watchlist/</loc>
     <lastmod>2018-07-20T19:12:58+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://mikulove.com/page/wishlist/</loc>
+    <loc>https://mikulove.com/wishlist/</loc>
     <lastmod>2018-07-20T19:12:50+08:00</lastmod>
   </url>
   
@@ -76,25 +64,25 @@
   </url>
   
   <url>
-    <loc>https://mikulove.com/tags/ios/</loc>
-    <lastmod>2018-07-17T12:52:38+08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://mikulove.com/categories/ios/</loc>
     <lastmod>2018-07-17T12:52:38+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://mikulove.com/tags/macos/</loc>
+    <loc>https://mikulove.com/tags/ios/</loc>
     <lastmod>2018-07-17T12:52:38+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://mikulove.com/categories/macos/</loc>
+    <lastmod>2018-07-17T12:52:38+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://mikulove.com/tags/macos/</loc>
     <lastmod>2018-07-17T12:52:38+08:00</lastmod>
     <priority>0</priority>
   </url>
@@ -145,13 +133,13 @@
   </url>
   
   <url>
-    <loc>https://mikulove.com/tags/vim/</loc>
+    <loc>https://mikulove.com/categories/vim/</loc>
     <lastmod>2018-05-17T17:25:11+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://mikulove.com/categories/vim/</loc>
+    <loc>https://mikulove.com/tags/vim/</loc>
     <lastmod>2018-05-17T17:25:11+08:00</lastmod>
     <priority>0</priority>
   </url>
@@ -169,13 +157,13 @@
   </url>
   
   <url>
-    <loc>https://mikulove.com/tags/linux/</loc>
+    <loc>https://mikulove.com/categories/linux/</loc>
     <lastmod>2018-03-12T06:14:58+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://mikulove.com/categories/linux/</loc>
+    <loc>https://mikulove.com/tags/linux/</loc>
     <lastmod>2018-03-12T06:14:58+08:00</lastmod>
     <priority>0</priority>
   </url>
@@ -203,19 +191,13 @@
   </url>
   
   <url>
-    <loc>https://mikulove.com/tags/lede/</loc>
-    <lastmod>2018-03-01T21:58:59+08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://mikulove.com/categories/lede/</loc>
     <lastmod>2018-03-01T21:58:59+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://mikulove.com/tags/pppoe/</loc>
+    <loc>https://mikulove.com/tags/lede/</loc>
     <lastmod>2018-03-01T21:58:59+08:00</lastmod>
     <priority>0</priority>
   </url>
@@ -227,18 +209,24 @@
   </url>
   
   <url>
+    <loc>https://mikulove.com/tags/pppoe/</loc>
+    <lastmod>2018-03-01T21:58:59+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://mikulove.com/2018/03/01/fix-lede-pppoe-connect-bug/</loc>
     <lastmod>2018-03-01T21:58:59+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://mikulove.com/tags/nodebb/</loc>
+    <loc>https://mikulove.com/categories/nodebb/</loc>
     <lastmod>2018-02-23T23:36:14+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://mikulove.com/categories/nodebb/</loc>
+    <loc>https://mikulove.com/tags/nodebb/</loc>
     <lastmod>2018-02-23T23:36:14+08:00</lastmod>
     <priority>0</priority>
   </url>
@@ -249,13 +237,13 @@
   </url>
   
   <url>
-    <loc>https://mikulove.com/tags/nodejs/</loc>
+    <loc>https://mikulove.com/categories/nodejs/</loc>
     <lastmod>2018-02-23T23:36:14+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://mikulove.com/categories/nodejs/</loc>
+    <loc>https://mikulove.com/tags/nodejs/</loc>
     <lastmod>2018-02-23T23:36:14+08:00</lastmod>
     <priority>0</priority>
   </url>
@@ -283,13 +271,13 @@
   </url>
   
   <url>
-    <loc>https://mikulove.com/tags/openwrt-/-lede/</loc>
+    <loc>https://mikulove.com/categories/openwrt-/-lede/</loc>
     <lastmod>2017-12-17T22:24:05+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://mikulove.com/categories/openwrt-/-lede/</loc>
+    <loc>https://mikulove.com/tags/openwrt-/-lede/</loc>
     <lastmod>2017-12-17T22:24:05+08:00</lastmod>
     <priority>0</priority>
   </url>
@@ -311,7 +299,7 @@
   </url>
   
   <url>
-    <loc>https://mikulove.com/page/links/</loc>
+    <loc>https://mikulove.com/links/</loc>
     <lastmod>2017-11-30T17:24:10+08:00</lastmod>
   </url>
   
@@ -322,13 +310,13 @@
   </url>
   
   <url>
-    <loc>https://mikulove.com/tags/document/</loc>
+    <loc>https://mikulove.com/categories/document/</loc>
     <lastmod>2017-09-29T19:58:29+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://mikulove.com/categories/document/</loc>
+    <loc>https://mikulove.com/tags/document/</loc>
     <lastmod>2017-09-29T19:58:29+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -355,13 +343,13 @@
   </url>
   
   <url>
-    <loc>https://mikulove.com/tags/swift/</loc>
+    <loc>https://mikulove.com/categories/swift/</loc>
     <lastmod>2017-06-30T23:03:38+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://mikulove.com/categories/swift/</loc>
+    <loc>https://mikulove.com/tags/swift/</loc>
     <lastmod>2017-06-30T23:03:38+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -377,13 +365,13 @@
   </url>
   
   <url>
-    <loc>https://mikulove.com/tags/iptables/</loc>
+    <loc>https://mikulove.com/categories/iptables/</loc>
     <lastmod>2017-05-22T06:37:32+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://mikulove.com/categories/iptables/</loc>
+    <loc>https://mikulove.com/tags/iptables/</loc>
     <lastmod>2017-05-22T06:37:32+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -410,13 +398,13 @@
   </url>
   
   <url>
-    <loc>https://mikulove.com/tags/jailbreaking/</loc>
+    <loc>https://mikulove.com/categories/jailbreaking/</loc>
     <lastmod>2017-03-16T13:23:14+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://mikulove.com/categories/jailbreaking/</loc>
+    <loc>https://mikulove.com/tags/jailbreaking/</loc>
     <lastmod>2017-03-16T13:23:14+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -432,13 +420,13 @@
   </url>
   
   <url>
-    <loc>https://mikulove.com/tags/php/</loc>
+    <loc>https://mikulove.com/categories/php/</loc>
     <lastmod>2016-07-26T13:23:51+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://mikulove.com/categories/php/</loc>
+    <loc>https://mikulove.com/tags/php/</loc>
     <lastmod>2016-07-26T13:23:51+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -449,13 +437,13 @@
   </url>
   
   <url>
-    <loc>https://mikulove.com/tags/mysql/</loc>
+    <loc>https://mikulove.com/categories/mysql/</loc>
     <lastmod>2016-07-26T13:23:30+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://mikulove.com/categories/mysql/</loc>
+    <loc>https://mikulove.com/tags/mysql/</loc>
     <lastmod>2016-07-26T13:23:30+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -499,13 +487,13 @@
   </url>
   
   <url>
-    <loc>https://mikulove.com/tags/objective-c/</loc>
+    <loc>https://mikulove.com/categories/objective-c/</loc>
     <lastmod>2016-04-30T13:23:26+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://mikulove.com/categories/objective-c/</loc>
+    <loc>https://mikulove.com/tags/objective-c/</loc>
     <lastmod>2016-04-30T13:23:26+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -518,11 +506,6 @@
   <url>
     <loc>https://mikulove.com/tags/software/</loc>
     <lastmod>2016-04-30T13:23:19+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://mikulove.com/archives/</loc>
     <priority>0</priority>
   </url>
   

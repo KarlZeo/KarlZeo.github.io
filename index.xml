@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>蓝白胖次</title>
+    <title></title>
     <link>https://mikulove.com/</link>
-    <description>Recent content on 蓝白胖次</description>
+    <description>Recent content on </description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
+    <language>en-US</language>
     <lastBuildDate>Sun, 05 Aug 2018 09:56:58 +0800</lastBuildDate>
     
 	<atom:link href="https://mikulove.com/index.xml" rel="self" type="application/rss+xml" />
@@ -13,19 +13,19 @@
     
     <item>
       <title>RESUME</title>
-      <link>https://mikulove.com/resume/resume_en/</link>
+      <link>https://mikulove.com/resume_en/</link>
       <pubDate>Sun, 05 Aug 2018 09:56:58 +0800</pubDate>
       
-      <guid>https://mikulove.com/resume/resume_en/</guid>
+      <guid>https://mikulove.com/resume_en/</guid>
       <description></description>
     </item>
     
     <item>
       <title>简历</title>
-      <link>https://mikulove.com/resume/resume_cn/</link>
+      <link>https://mikulove.com/resume_cn/</link>
       <pubDate>Sun, 05 Aug 2018 09:56:58 +0800</pubDate>
       
-      <guid>https://mikulove.com/resume/resume_cn/</guid>
+      <guid>https://mikulove.com/resume_cn/</guid>
       <description>个人信息  姓名 : 聂玉江 性别 : 男 年龄 : 23 毕业院校 : 山东理工大学 联系方式 : 17562143955 Email : nieyujiang@gmail.com QQ : 595597807 Blog : https://mikulove.com Github : https://github.com/karlzeo 目前状态 : 在职 期望薪资 : 20k  技能 iOS/macOS  能够熟练的使用Swift语言进行iOS/macOS开发,了解Objective-C,用得不多. 略懂前端开发. 能够熟练的使用Alamofire,SnapKit,Kingfisher等等第三方类库. 熟悉macOS的开发的基本流程,有iOS上架经验. 熟悉Objective-C与Swift的混编. 熟悉MVC架构.  Linux  熟练使用各种Linux发行版操作系统.(常用Debian,CentOS,Arch Linux) 熟悉各种GUN软件的编译. 熟练部署各种VPN代理.(目前日常使用的代理是我自己维护的)  其他  熟练使用git. 熟练部署各种Web应用(除了Java的). 能够独立解决各种问题. 英语还凑合,有不少外国朋友.  作品 孺子牛(iOS) 孺子牛是一款在线直播软件.主打在线教育直播.面向的对象是广大在校师生.使用 Objective-C 和 Swift 混合开发.以Objective-C为主,Swfit负责实现Socket通信.本应用的功能有直播的基础功能,比如开播和看播,送礼物,直播间公聊,用户私聊.播放视频.播放音乐.以及地区筛选.
 下载地址
 蓝湖 蓝湖是一款设计图共享平台，帮助互联网团队管理设计图。蓝湖可以自动生成标注，与团队共享设计图，展示页面之间的跳转关系。蓝湖支持从Sketch、Ps一键共享、在线讨论，而且蓝湖只需简单几步就能将设计图变成一个可以点击的演示原型.</description>
@@ -33,10 +33,10 @@
     
     <item>
       <title>Watchlist</title>
-      <link>https://mikulove.com/page/watchlist/</link>
+      <link>https://mikulove.com/watchlist/</link>
       <pubDate>Fri, 20 Jul 2018 19:12:58 +0800</pubDate>
       
-      <guid>https://mikulove.com/page/watchlist/</guid>
+      <guid>https://mikulove.com/watchlist/</guid>
       <description>Tokusatsu Kamen Rider Series Kamen Rider (1971–1973)
 Kamen Rider V3 (1973–1974)
 Kamen Rider X (1974)
@@ -57,10 +57,10 @@ Kamen Rider Kabuto (2006-2007) ✅</description>
     
     <item>
       <title>Wishlist</title>
-      <link>https://mikulove.com/page/wishlist/</link>
+      <link>https://mikulove.com/wishlist/</link>
       <pubDate>Fri, 20 Jul 2018 19:12:50 +0800</pubDate>
       
-      <guid>https://mikulove.com/page/wishlist/</guid>
+      <guid>https://mikulove.com/wishlist/</guid>
       <description> Apple Macbook Pro 2018  Intel Core i9 32G Memory 4TB Disk English Keyboard  iPhone (renew in 2018) iPad Pro (renew in 2018) iWatch (new version) Apple Pencil (new version) Smart Keyboard (new version) </description>
     </item>
     
@@ -194,10 +194,10 @@ seems not work well.&lt;/p&gt;</description>
     
     <item>
       <title>Links</title>
-      <link>https://mikulove.com/page/links/</link>
+      <link>https://mikulove.com/links/</link>
       <pubDate>Thu, 30 Nov 2017 17:24:10 +0800</pubDate>
       
-      <guid>https://mikulove.com/page/links/</guid>
+      <guid>https://mikulove.com/links/</guid>
       <description>Friends 立于浮华之世 奏响天籁之音
 イルカ水族館
 Captain雪ノ下八幡のBlog
